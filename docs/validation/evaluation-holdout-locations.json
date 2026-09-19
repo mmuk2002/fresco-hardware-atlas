@@ -1,0 +1,214 @@
+{
+  "scope": "Every printed set heading on the eight fixed holdout pages plus adjacent continuation pages; independent source text anchors",
+  "expected_headings": 17,
+  "matched_headings": 17,
+  "heading_precision": 1.0,
+  "heading_recall": 1.0,
+  "heading_box_minimum_coverage": 0.9997,
+  "details": [
+    {
+      "source_path": "81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf",
+      "page": 22,
+      "set_number": "37",
+      "heading_coverage": 0.9998,
+      "bbox": [
+        108.66,
+        42.38,
+        548.03,
+        251.96
+      ]
+    },
+    {
+      "source_path": "81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf",
+      "page": 22,
+      "set_number": "38",
+      "heading_coverage": 0.9998,
+      "bbox": [
+        41.4,
+        297.2,
+        548.03,
+        448.04
+      ]
+    },
+    {
+      "source_path": "81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf",
+      "page": 22,
+      "set_number": "39",
+      "heading_coverage": 0.9998,
+      "bbox": [
+        41.4,
+        493.22,
+        548.03,
+        644.06
+      ]
+    },
+    {
+      "source_path": "HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "page": 180,
+      "set_number": "266",
+      "heading_coverage": 0.9997,
+      "bbox": [
+        72.02,
+        266.56,
+        533.59,
+        657.63
+      ]
+    },
+    {
+      "source_path": "HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "page": 180,
+      "set_number": "267",
+      "heading_coverage": 1.0,
+      "bbox": [
+        72.02,
+        688.04,
+        297.96,
+        699.15
+      ]
+    },
+    {
+      "source_path": "HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "page": 181,
+      "set_number": "268",
+      "heading_coverage": 0.9997,
+      "bbox": [
+        72.02,
+        411.04,
+        533.6,
+        679.23
+      ]
+    },
+    {
+      "source_path": "Morris Bank/030f2d1d-Morris_Bank_Macon_-Spec_Manual_Issued_for_Const._1-26-26_FULL_SPECS.pdf",
+      "page": 251,
+      "set_number": "203",
+      "heading_coverage": 1.0,
+      "bbox": [
+        72.02,
+        98.21,
+        530.45,
+        303.77
+      ]
+    },
+    {
+      "source_path": "SAT TDP/2025.12.19 - SAT TDP - Project Manual.pdf",
+      "page": 807,
+      "set_number": "E210T",
+      "heading_coverage": 0.9997,
+      "bbox": [
+        72.02,
+        72.37,
+        526.65,
+        329.02
+      ]
+    },
+    {
+      "source_path": "SAT TDP/2025.12.19 - SAT TDP - Project Manual.pdf",
+      "page": 807,
+      "set_number": "E210TW",
+      "heading_coverage": 0.9997,
+      "bbox": [
+        72.02,
+        343.0,
+        526.65,
+        599.67
+      ]
+    },
+    {
+      "source_path": "SJC Well Behavioral/89671ede-20260218_SJC_BeWell_Bldg_B_85__DESIGN_UPDATE_-_SPECIFICATIONS.pdf",
+      "page": 740,
+      "set_number": "E11",
+      "heading_coverage": 1.0,
+      "bbox": [
+        63.86,
+        100.65,
+        588.05,
+        407.86
+      ]
+    },
+    {
+      "source_path": "StarHardware/9839d1a1-Division_8_Specs_-_Commons_Lane.pdf",
+      "page": 101,
+      "set_number": "31",
+      "heading_coverage": 0.9998,
+      "bbox": [
+        72.0,
+        75.8,
+        512.93,
+        678.43
+      ]
+    },
+    {
+      "source_path": "The Door Company _Copy_/Vantage TX-22 Div 01, 08.pdf",
+      "page": 418,
+      "set_number": "D201",
+      "heading_coverage": 0.9999,
+      "bbox": [
+        72.02,
+        158.27,
+        539.82,
+        426.23
+      ]
+    },
+    {
+      "source_path": "The Door Company _Copy_/Vantage TX-22 Div 01, 08.pdf",
+      "page": 418,
+      "set_number": "D204Z",
+      "heading_coverage": 0.9999,
+      "bbox": [
+        72.02,
+        450.64,
+        413.09,
+        499.55
+      ]
+    },
+    {
+      "source_path": "The Door Company _Copy_/Vantage TX-22 Div 01, 08.pdf",
+      "page": 419,
+      "set_number": "D705DXZ",
+      "heading_coverage": 0.9999,
+      "bbox": [
+        72.02,
+        385.46,
+        539.86,
+        652.58
+      ]
+    },
+    {
+      "source_path": "The Door Company _Copy_/Vantage TX-22 Div 01, 08.pdf",
+      "page": 419,
+      "set_number": "D714DXZ",
+      "heading_coverage": 0.9999,
+      "bbox": [
+        72.02,
+        676.99,
+        317.14,
+        689.3
+      ]
+    },
+    {
+      "source_path": "Village of Oswego New Public Works Facility  _Copy_/SPECIFICATIONS VOLUME 1.pdf",
+      "page": 437,
+      "set_number": "44",
+      "heading_coverage": 0.9997,
+      "bbox": [
+        72.02,
+        72.37,
+        529.65,
+        281.5
+      ]
+    },
+    {
+      "source_path": "Village of Oswego New Public Works Facility  _Copy_/SPECIFICATIONS VOLUME 1.pdf",
+      "page": 437,
+      "set_number": "45",
+      "heading_coverage": 0.9997,
+      "bbox": [
+        72.02,
+        307.84,
+        529.65,
+        492.0
+      ]
+    }
+  ]
+}

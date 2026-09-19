@@ -1,0 +1,46 @@
+{
+  "selection_seed": 87100,
+  "selection_scope": "One page chosen from each of eight predeclared audited schedule ranges before inspecting predictions",
+  "pages": [
+    {
+      "source_path": "81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf",
+      "page": 22,
+      "source_sha256": "971d3bea6824cd0ced36eb0b52336ea89f5e976a4b15e3236d0d3537e62f6027"
+    },
+    {
+      "source_path": "HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "page": 181,
+      "source_sha256": "ca18d53e800e7ba255fafb33e7886a750f9f74eac78d16ce8cbaa0a07af9274b"
+    },
+    {
+      "source_path": "Morris Bank/030f2d1d-Morris_Bank_Macon_-Spec_Manual_Issued_for_Const._1-26-26_FULL_SPECS.pdf",
+      "page": 251,
+      "source_sha256": "558803e9a76423fab256e17db34bc9d69bd9ebbb6b113aba7470a757423f981c"
+    },
+    {
+      "source_path": "SAT TDP/2025.12.19 - SAT TDP - Project Manual.pdf",
+      "page": 807,
+      "source_sha256": "d4ecb9791f2f1ba4eb27da80444ceb02703ee48b29ed6830cf642320129955a3"
+    },
+    {
+      "source_path": "SJC Well Behavioral/89671ede-20260218_SJC_BeWell_Bldg_B_85__DESIGN_UPDATE_-_SPECIFICATIONS.pdf",
+      "page": 740,
+      "source_sha256": "f6121cd97049ea7a0040683bded13e8eb440b78fd7f520498f478a9c0977dc9a"
+    },
+    {
+      "source_path": "StarHardware/9839d1a1-Division_8_Specs_-_Commons_Lane.pdf",
+      "page": 101,
+      "source_sha256": "a0599dd9479dbb6ce09561a8a5afc7646d117e94e7eadeb8ea22fe8292c65dd0"
+    },
+    {
+      "source_path": "The Door Company _Copy_/Vantage TX-22 Div 01, 08.pdf",
+      "page": 418,
+      "source_sha256": "8a67ad659732fe5df08ea3d2543962f7c175db78005bbd55cd74b41be3ac6d56"
+    },
+    {
+      "source_path": "Village of Oswego New Public Works Facility  _Copy_/SPECIFICATIONS VOLUME 1.pdf",
+      "page": 437,
+      "source_sha256": "035fa8a8bfab6a19917c15cfcc90f226b610f01de6aad9d87a05aa070f497c10"
+    }
+  ]
+}

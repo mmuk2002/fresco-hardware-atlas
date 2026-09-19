@@ -1,0 +1,970 @@
+[
+  {
+    "source_path": "81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf",
+    "page": 22,
+    "set_number": "37",
+    "status": "active",
+    "components": [
+      {
+        "qty": 6,
+        "description": "Standard Hinge",
+        "catalog_number": "TA2314 4 1/2\" x 4 1/2\" C32D NRP",
+        "mfr": null,
+        "finish": "C32D"
+      },
+      {
+        "qty": 1,
+        "description": "Lockset",
+        "catalog_number": "T581 P6 LAT/LAT 626/626 G 23981152",
+        "mfr": null,
+        "finish": "626/626"
+      },
+      {
+        "qty": 1,
+        "description": "Flush Bolt",
+        "catalog_number": "FB31P-12-MD C32D",
+        "mfr": null,
+        "finish": "C32D"
+      },
+      {
+        "qty": 1,
+        "description": "Z Astragal",
+        "catalog_number": "Z Astragal Factory Applied By Door Manufacturer",
+        "mfr": null,
+        "finish": null
+      },
+      {
+        "qty": 2,
+        "description": "Surface Closer",
+        "catalog_number": "SC71A Rw/ PA 689",
+        "mfr": null,
+        "finish": "689"
+      },
+      {
+        "qty": 2,
+        "description": "Overhead Door Holder",
+        "catalog_number": "104H C26D",
+        "mfr": null,
+        "finish": "C26D"
+      },
+      {
+        "qty": 2,
+        "description": "Kick Plate",
+        "catalog_number": "8400 C32D 8\" x 36 1/2\"",
+        "mfr": null,
+        "finish": "C32D"
+      },
+      {
+        "qty": 2,
+        "description": "Weatherstripping",
+        "catalog_number": "W-38S-CA x 38\"",
+        "mfr": null,
+        "finish": "CA"
+      },
+      {
+        "qty": 1,
+        "description": "Weatherstripping",
+        "catalog_number": "W-2050S-CA x 76\"",
+        "mfr": null,
+        "finish": "CA"
+      },
+      {
+        "qty": 2,
+        "description": "Jamb Weatherstripping",
+        "catalog_number": "W-50S-CAx84\" Opening",
+        "mfr": null,
+        "finish": "CA"
+      },
+      {
+        "qty": 1,
+        "description": "Threshold",
+        "catalog_number": "CT-65(Stock Size) x 76\"",
+        "mfr": null,
+        "finish": null
+      }
+    ]
+  },
+  {
+    "source_path": "81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf",
+    "page": 22,
+    "set_number": "38",
+    "status": "active",
+    "components": [
+      {
+        "qty": 3,
+        "description": "Standard Hinge",
+        "catalog_number": "TA714 4 1/2\" x 4\" C26D",
+        "mfr": null,
+        "finish": "C26D"
+      },
+      {
+        "qty": 1,
+        "description": "Lockset",
+        "catalog_number": "W561 P6 LAT/LAT 626/626 G",
+        "mfr": null,
+        "finish": "626/626"
+      },
+      {
+        "qty": 1,
+        "description": "Surface Closer",
+        "catalog_number": "SC81A Rw/ PA 689",
+        "mfr": null,
+        "finish": "689"
+      },
+      {
+        "qty": 1,
+        "description": "Wall Door Stop",
+        "catalog_number": "S120 C26D",
+        "mfr": null,
+        "finish": "C26D"
+      },
+      {
+        "qty": 1,
+        "description": "Gasketing",
+        "catalog_number": "W-22AL 1/965 x 2/2134",
+        "mfr": null,
+        "finish": null
+      },
+      {
+        "qty": 1,
+        "description": "Kick Plate",
+        "catalog_number": "8400 C32D 8\" x 36 1/2\"",
+        "mfr": null,
+        "finish": "C32D"
+      }
+    ]
+  },
+  {
+    "source_path": "81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf",
+    "page": 22,
+    "set_number": "39",
+    "status": "active",
+    "components": [
+      {
+        "qty": 3,
+        "description": "Standard Hinge",
+        "catalog_number": "TA714 4 1/2\" x 4\" C26D",
+        "mfr": null,
+        "finish": "C26D"
+      },
+      {
+        "qty": 1,
+        "description": "Lockset",
+        "catalog_number": "W581 P6 LAT/LAT 626/626 G",
+        "mfr": null,
+        "finish": "626/626"
+      },
+      {
+        "qty": 1,
+        "description": "Surface Closer",
+        "catalog_number": "SC81A Rw/ PA 689",
+        "mfr": null,
+        "finish": "689"
+      },
+      {
+        "qty": 1,
+        "description": "Wall Door Stop",
+        "catalog_number": "S120 C26D",
+        "mfr": null,
+        "finish": "C26D"
+      },
+      {
+        "qty": 1,
+        "description": "Gasketing",
+        "catalog_number": "W-22AL 1/965 x 2/2134",
+        "mfr": null,
+        "finish": null
+      },
+      {
+        "qty": 1,
+        "description": "Kick Plate",
+        "catalog_number": "8400 C32D 8\" x 36 1/2\"",
+        "mfr": null,
+        "finish": "C32D"
+      }
+    ]
+  },
+  {
+    "source_path": "HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+    "pages": [
+      180,
+      181
+    ],
+    "set_number": "267",
+    "status": "active",
+    "components": [
+      {
+        "qty": 6,
+        "description": "HEAVYWEIGHT HINGE",
+        "catalog_number": "5BB1HW 4.5 X 4.5 - NRP AT OUTSWINGING LOCKING DOORS",
+        "mfr": "IVE",
+        "finish": "652"
+      },
+      {
+        "qty": 1,
+        "description": "CONST LATCHING BOLT",
+        "catalog_number": "FB51T/FB61T - AS REQUIRED",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "PASSAGE SET",
+        "catalog_number": "9K30N 15D",
+        "mfr": "BES",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "SURFACE CLOSER",
+        "catalog_number": "4040XP REG TBSRT/ 4040XP EDA TBSRT - AS REQUIRED",
+        "mfr": "LCN",
+        "finish": "689"
+      },
+      {
+        "qty": 2,
+        "description": "KICK PLATE",
+        "catalog_number": "8400 10\" HIGH LDW B-CS",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 2,
+        "description": "WALL STOP",
+        "catalog_number": "WS401/402CCV",
+        "mfr": "IVE",
+        "finish": "626"
+      }
+    ]
+  },
+  {
+    "source_path": "HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+    "page": 181,
+    "set_number": "268",
+    "status": "active",
+    "components": [
+      {
+        "qty": 6,
+        "description": "HEAVYWEIGHT HINGE",
+        "catalog_number": "5BB1HW 4.5 X 4.5 - NRP AT OUTSWINGING LOCKING DOORS",
+        "mfr": "IVE",
+        "finish": "652"
+      },
+      {
+        "qty": 2,
+        "description": "FIRE EXIT HARDWARE",
+        "catalog_number": "9827-EO-F-LBR/LBRAFL-499F-SNB",
+        "mfr": "VON",
+        "finish": "626"
+      },
+      {
+        "qty": 2,
+        "description": "DELAYED SURFACE CLOSER",
+        "catalog_number": "4041 DEL REG TBSRT/ 4041 DEL EDA TBSRT - AS REQUIRED",
+        "mfr": "LCN",
+        "finish": "689"
+      },
+      {
+        "qty": 2,
+        "description": "KICK PLATE",
+        "catalog_number": "8400 10\" HIGH LDW B-CS",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 2,
+        "description": "WALL STOP",
+        "catalog_number": "WS401/402CCV",
+        "mfr": "IVE",
+        "finish": "626"
+      }
+    ]
+  },
+  {
+    "source_path": "Morris Bank/030f2d1d-Morris_Bank_Macon_-Spec_Manual_Issued_for_Const._1-26-26_FULL_SPECS.pdf",
+    "page": 251,
+    "set_number": "203",
+    "status": "active",
+    "components": [
+      {
+        "qty": 4,
+        "description": "Hinges",
+        "catalog_number": "MPB79 4 1/2 x 4 1/2 NRP",
+        "mfr": "MC",
+        "finish": "10BE"
+      },
+      {
+        "qty": 1,
+        "description": "Lockset",
+        "catalog_number": "70 10XG05 LL 2 3/4\" BS",
+        "mfr": "SA",
+        "finish": "10BE"
+      },
+      {
+        "qty": 1,
+        "description": "Construction Core",
+        "catalog_number": "7190224",
+        "mfr": "BE",
+        "finish": null
+      },
+      {
+        "qty": 1,
+        "description": "Wall Stop",
+        "catalog_number": "409",
+        "mfr": "RO",
+        "finish": "10BE"
+      },
+      {
+        "qty": 1,
+        "description": "SFIC",
+        "catalog_number": "33700006 N 26 DAKM",
+        "mfr": "MED1",
+        "finish": null
+      },
+      {
+        "qty": 3,
+        "description": "Door Silencer",
+        "catalog_number": "608-RKW",
+        "mfr": "RO",
+        "finish": "BLK"
+      }
+    ]
+  },
+  {
+    "source_path": "SAT TDP/2025.12.19 - SAT TDP - Project Manual.pdf",
+    "page": 807,
+    "set_number": "E210T",
+    "status": "active",
+    "components": [
+      {
+        "qty": 8,
+        "description": "HINGE",
+        "catalog_number": "5BB1 4.5 X 4.5 (PROVIDE NRP @ OUTSWING, LOCKABLE DOORS)",
+        "mfr": "IVE",
+        "finish": "652"
+      },
+      {
+        "qty": 1,
+        "description": "CONST LATCHING BOLT",
+        "catalog_number": "FB51P/FB61P AS REQ",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "DUST PROOF STRIKE",
+        "catalog_number": "DP2",
+        "mfr": "IVE",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "MORTISE LOCK",
+        "catalog_number": "72-8204 FEJ 26D STOREROOM FUNCTION",
+        "mfr": "SAR",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "XT INTELLIGENT KEY SYSTEM CORE",
+        "catalog_number": "MATCH FACILITY SYSTEM AS REQUIRED",
+        "mfr": "MED",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "SURFACE CLOSER",
+        "catalog_number": "4040XP RW/PA TBWMS X MTG BRKT, SPCR & PLATE AS REQ",
+        "mfr": "LCN",
+        "finish": "689"
+      },
+      {
+        "qty": 2,
+        "description": "KICK PLATE",
+        "catalog_number": "8400 10\" X 1\" LDW B-CS",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 2,
+        "description": "WALL STOP",
+        "catalog_number": "WS406/407CCV",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "GASKETING",
+        "catalog_number": "488S PSA H & J (USE SILENCERS @ NON-RATED DOORS)",
+        "mfr": "ZER",
+        "finish": "BK"
+      },
+      {
+        "qty": 1,
+        "description": "MEETING STILE",
+        "catalog_number": "8193AA (2 PCS - 1 SET) (OMIT @ NON-RATED DOORS)",
+        "mfr": "ZER",
+        "finish": "AA"
+      }
+    ]
+  },
+  {
+    "source_path": "SAT TDP/2025.12.19 - SAT TDP - Project Manual.pdf",
+    "page": 807,
+    "set_number": "E210TW",
+    "status": "active",
+    "components": [
+      {
+        "qty": 8,
+        "description": "HINGE",
+        "catalog_number": "5BB1HW 5 X 4.5 (PROVIDE NRP @ OUTSWING, LOCKABLE DOORS)",
+        "mfr": "IVE",
+        "finish": "652"
+      },
+      {
+        "qty": 1,
+        "description": "CONST LATCHING BOLT",
+        "catalog_number": "FB51P/FB61P AS REQ",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "DUST PROOF STRIKE",
+        "catalog_number": "DP2",
+        "mfr": "IVE",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "MORTISE LOCK",
+        "catalog_number": "72-8204 FEJ 26D STOREROOM FUNCTION",
+        "mfr": "SAR",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "XT INTELLIGENT KEY SYSTEM CORE",
+        "catalog_number": "MATCH FACILITY SYSTEM AS REQUIRED",
+        "mfr": "MED",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "SURFACE CLOSER",
+        "catalog_number": "4040XP RW/PA TBWMS X MTG BRKT, SPCR & PLATE AS REQ",
+        "mfr": "LCN",
+        "finish": "689"
+      },
+      {
+        "qty": 2,
+        "description": "KICK PLATE",
+        "catalog_number": "8400 10\" X 1\" LDW B-CS",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 2,
+        "description": "WALL STOP",
+        "catalog_number": "WS406/407CCV",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "GASKETING",
+        "catalog_number": "488S PSA H & J (USE SILENCERS @ NON-RATED DOORS)",
+        "mfr": "ZER",
+        "finish": "BK"
+      },
+      {
+        "qty": 1,
+        "description": "MEETING STILE",
+        "catalog_number": "8193AA (2 PCS - 1 SET) (OMIT @ NON-RATED DOORS)",
+        "mfr": "ZER",
+        "finish": "AA"
+      }
+    ]
+  },
+  {
+    "source_path": "SJC Well Behavioral/89671ede-20260218_SJC_BeWell_Bldg_B_85__DESIGN_UPDATE_-_SPECIFICATIONS.pdf",
+    "page": 740,
+    "set_number": "E11",
+    "status": "active",
+    "components": [
+      {
+        "qty": null,
+        "description": "Hinge-HT",
+        "catalog_number": "4C51 HT NRP",
+        "mfr": "PBB",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "Hinge-Power Transfer",
+        "catalog_number": "4C51EL HT",
+        "mfr": "PBB",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "Fail Secure Cyl. Lock",
+        "catalog_number": "XCDC-86-S-RQE 24VDC",
+        "mfr": "TOW",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "Cylinder",
+        "catalog_number": "Per project",
+        "mfr": "TBD",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "OH Surface Closer",
+        "catalog_number": "4040XP/4040XP EDA",
+        "mfr": "LCN",
+        "finish": "689"
+      },
+      {
+        "qty": 1,
+        "description": "Door Stop",
+        "catalog_number": "Per Specification"
+      },
+      {
+        "qty": 1,
+        "description": "Overhead Rain Drip",
+        "catalog_number": "16A (As Req)",
+        "mfr": "NGP",
+        "finish": "628"
+      },
+      {
+        "qty": 1,
+        "description": "Door Sweep",
+        "catalog_number": "600A",
+        "mfr": "NGP",
+        "finish": "628"
+      },
+      {
+        "qty": 1,
+        "description": "Weatherstrip",
+        "catalog_number": "700Nx700EN",
+        "mfr": "NGP",
+        "finish": "719"
+      },
+      {
+        "qty": 1,
+        "description": "Threshold",
+        "catalog_number": "To Suit Sill Condition",
+        "mfr": "PEM",
+        "finish": "719"
+      },
+      {
+        "qty": 1,
+        "description": "Card Reader",
+        "catalog_number": "By Division 28"
+      },
+      {
+        "qty": 1,
+        "description": "Door Position Switch",
+        "catalog_number": "By Division 28"
+      },
+      {
+        "qty": 1,
+        "description": "Lock Power Supply",
+        "catalog_number": "By Division 28"
+      }
+    ]
+  },
+  {
+    "source_path": "StarHardware/9839d1a1-Division_8_Specs_-_Commons_Lane.pdf",
+    "page": 101,
+    "set_number": "31",
+    "status": "active",
+    "components": [
+      {
+        "qty": null,
+        "description": "Hinges",
+        "catalog_number": "5BB1HW (size & quantity per 08 71 00)",
+        "mfr": "IV",
+        "finish": "622"
+      },
+      {
+        "qty": 1,
+        "description": "Fire Rated Rim Exit/Panic Device",
+        "mfr": "VO",
+        "finish": "622"
+      },
+      {
+        "qty": 1,
+        "description": "I/C Cylinders (Rim or Mortise)",
+        "mfr": "SC",
+        "finish": "622"
+      },
+      {
+        "qty": 1,
+        "description": "Permanent Core",
+        "catalog_number": "20-030",
+        "mfr": "SC",
+        "finish": "622"
+      },
+      {
+        "qty": 1,
+        "description": "Surface Closer",
+        "catalog_number": "4050A x REG (installed pull-side)",
+        "mfr": "LC",
+        "finish": "693"
+      },
+      {
+        "qty": 1,
+        "description": "Kick Plate",
+        "mfr": "TR",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "Floor Stop",
+        "catalog_number": "1214",
+        "mfr": "TR",
+        "finish": "622"
+      },
+      {
+        "qty": 1,
+        "description": "Seals"
+      },
+      {
+        "qty": 1,
+        "description": "Door Bottom"
+      },
+      {
+        "qty": 1,
+        "description": "Terrace Threshold"
+      },
+      {
+        "qty": 1,
+        "description": "REX Device (security/alarm notification)"
+      },
+      {
+        "qty": 1,
+        "description": "Door Position Switches (also known as Alarm/Door Contacts)"
+      },
+      {
+        "qty": 1,
+        "description": "Power Supply"
+      },
+      {
+        "qty": 1,
+        "description": "Coordination task for security and/or electrical design and additional non-Division 08 Section scope (including but not limited to wire / connectivity from ground or ceiling through frame to electrified hardware)"
+      }
+    ]
+  },
+  {
+    "source_path": "The Door Company _Copy_/Vantage TX-22 Div 01, 08.pdf",
+    "page": 418,
+    "set_number": "D201",
+    "status": "active",
+    "components": [
+      {
+        "qty": 3,
+        "description": "HINGE",
+        "catalog_number": "5BB1HW 4.5 X 4.5",
+        "mfr": "IVE",
+        "finish": "652"
+      },
+      {
+        "qty": 1,
+        "description": "STOREROOM LOCK",
+        "catalog_number": "L9080T 17L",
+        "mfr": "SCH",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "PERMANENT CORE",
+        "catalog_number": "COORDINATE WITH OWNER",
+        "mfr": "SCH",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "SURFACE CLOSER",
+        "catalog_number": "4040XP",
+        "mfr": "LCN",
+        "finish": "689"
+      },
+      {
+        "qty": 1,
+        "description": "KICK PLATE",
+        "catalog_number": "8400 10\" X 2\" LDW B-CS",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "WALL STOP",
+        "catalog_number": "WS406/407CVX",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "GASKETING",
+        "catalog_number": "488SBK PSA",
+        "mfr": "ZER",
+        "finish": "BK"
+      },
+      {
+        "qty": 1,
+        "description": "DOOR POSITION SWITCH BY DIV 28",
+        "catalog_number": null,
+        "mfr": null,
+        "finish": null
+      }
+    ]
+  },
+  {
+    "source_path": "The Door Company _Copy_/Vantage TX-22 Div 01, 08.pdf",
+    "pages": [
+      418,
+      419
+    ],
+    "set_number": "D204Z",
+    "status": "active",
+    "components": [
+      {
+        "qty": 2,
+        "description": "CONT. HINGE",
+        "catalog_number": "224XY",
+        "mfr": "IVE",
+        "finish": "628"
+      },
+      {
+        "qty": 1,
+        "description": "CONST LATCHING BOLT",
+        "catalog_number": "FB51P",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "DUST PROOF STRIKE",
+        "catalog_number": "DP2",
+        "mfr": "IVE",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "STOREROOM LOCK",
+        "catalog_number": "L9080T 17L",
+        "mfr": "SCH",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "PERMANENT CORE",
+        "catalog_number": "COORDINATE WITH OWNER",
+        "mfr": "SCH",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "COORDINATOR",
+        "catalog_number": "COR X FL",
+        "mfr": "IVE",
+        "finish": "628"
+      },
+      {
+        "qty": 2,
+        "description": "MOUNTING BRACKET",
+        "catalog_number": "MB, TO SUIT HM FRAME (TO SUIT FRAME)",
+        "mfr": "IVE",
+        "finish": "689"
+      },
+      {
+        "qty": 2,
+        "description": "SURFACE CLOSER",
+        "catalog_number": "4040XP SCUSH",
+        "mfr": "LCN",
+        "finish": "689"
+      },
+      {
+        "qty": 2,
+        "description": "KICK PLATE",
+        "catalog_number": "8400 10\" X 2\" LDW B-CS",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "RAIN DRIP",
+        "catalog_number": "142AA",
+        "mfr": "ZER",
+        "finish": "AA"
+      },
+      {
+        "qty": 1,
+        "description": "GASKETING",
+        "catalog_number": "488SBK PSA",
+        "mfr": "ZER",
+        "finish": "BK"
+      },
+      {
+        "qty": 1,
+        "description": "ASTRAGAL",
+        "catalog_number": "43STST",
+        "mfr": "ZER",
+        "finish": "STST"
+      },
+      {
+        "qty": 2,
+        "description": "DOOR SWEEP",
+        "catalog_number": "8197AA",
+        "mfr": "ZER",
+        "finish": "AA"
+      },
+      {
+        "qty": 1,
+        "description": "THRESHOLD",
+        "catalog_number": "655A-MSLA-10",
+        "mfr": "ZER",
+        "finish": "A"
+      },
+      {
+        "qty": 2,
+        "description": "DOOR POSITION SWITCH BY DIV 28",
+        "catalog_number": null,
+        "mfr": null,
+        "finish": null
+      },
+      {
+        "qty": 1,
+        "description": "LOCAL ALARM BY DIV 28",
+        "catalog_number": null,
+        "mfr": null,
+        "finish": null
+      }
+    ]
+  },
+  {
+    "source_path": "Village of Oswego New Public Works Facility  _Copy_/SPECIFICATIONS VOLUME 1.pdf",
+    "page": 437,
+    "set_number": "44",
+    "status": "active",
+    "components": [
+      {
+        "qty": 3,
+        "description": "HINGE",
+        "catalog_number": "5BB1HW 4.5 X 4.5 NRP",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "STOREROOM LOCK",
+        "catalog_number": "L9080T.03.626.A.626.03.626.A.626",
+        "mfr": "SCH",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "FSIC PRIMUS PERMANENT CORE",
+        "catalog_number": "20-740-XP CKC - MATCH EXISTING KEYWAY SYSTEM",
+        "mfr": "SCH",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "SURFACE CLOSER",
+        "catalog_number": "4040XP SCUSH TBSRT",
+        "mfr": "LCN",
+        "finish": "689"
+      },
+      {
+        "qty": 1,
+        "description": "ARMOR PLATE",
+        "catalog_number": "8400 34\" X AS REQ B-CS TKTX",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "GASKETING SET",
+        "catalog_number": "188SBK PSA",
+        "mfr": "ZER",
+        "finish": "BK"
+      },
+      {
+        "qty": 1,
+        "description": "DOOR SWEEP",
+        "catalog_number": "39A",
+        "mfr": "ZER",
+        "finish": "A"
+      },
+      {
+        "qty": 1,
+        "description": "HD THRESHOLD",
+        "catalog_number": "655A-V3-226",
+        "mfr": "ZER",
+        "finish": "A"
+      }
+    ]
+  },
+  {
+    "source_path": "Village of Oswego New Public Works Facility  _Copy_/SPECIFICATIONS VOLUME 1.pdf",
+    "page": 437,
+    "set_number": "45",
+    "status": "active",
+    "components": [
+      {
+        "qty": 3,
+        "description": "HINGE",
+        "catalog_number": "5BB1HW 4.5 X 4.5 NRP",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "PASSAGE SET",
+        "catalog_number": "L9010.03.626.A.626.03.626.A.626",
+        "mfr": "SCH",
+        "finish": "626"
+      },
+      {
+        "qty": 1,
+        "description": "SURFACE CLOSER",
+        "catalog_number": "4040XP SCUSH TBSRT",
+        "mfr": "LCN",
+        "finish": "689"
+      },
+      {
+        "qty": 1,
+        "description": "KICK PLATE",
+        "catalog_number": "8400 10\" X AS REQ B-CS TKTX",
+        "mfr": "IVE",
+        "finish": "630"
+      },
+      {
+        "qty": 1,
+        "description": "GASKETING SET",
+        "catalog_number": "188SBK PSA",
+        "mfr": "ZER",
+        "finish": "BK"
+      },
+      {
+        "qty": 1,
+        "description": "DOOR SWEEP",
+        "catalog_number": "39A",
+        "mfr": "ZER",
+        "finish": "A"
+      },
+      {
+        "qty": 1,
+        "description": "HD THRESHOLD",
+        "catalog_number": "655A-V3-226",
+        "mfr": "ZER",
+        "finish": "A"
+      }
+    ]
+  }
+]

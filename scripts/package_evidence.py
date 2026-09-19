@@ -10,7 +10,7 @@ def main():
     output = Path('docs/validation')
     output.mkdir(parents=True, exist_ok=True)
     Path('docs/output.schema.json').write_text(json.dumps(ExtractionResult.model_json_schema(), indent=2), encoding='utf-8')
-    for name in ('evaluation-development.json', 'evaluation-project-sample.json'):
+    for name in ('evaluation-development.json', 'evaluation-project-sample.json', 'evaluation-heldout.json'):
         shutil.copyfile(Path('output')/name, output/name)
     summary=json.loads(Path('output/corpus/summary.json').read_text(encoding='utf-8'))
     summary.pop('source_root', None)

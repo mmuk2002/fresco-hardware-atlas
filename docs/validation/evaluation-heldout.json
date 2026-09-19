@@ -1,0 +1,315 @@
+{
+  "scope": "Reviewed set/page annotations only; unannotated sets are excluded. This is not corpus-wide accuracy.",
+  "normalization": "Unicode NFKC, case, whitespace, typographic quotes/dashes; numeric quantity equivalence. No manufacturer aliases or code expansion.",
+  "matching": "Exact normalized set number with page overlap; one-to-one maximum-weight component identity matching (description/catalog).",
+  "annotated_documents": 8,
+  "annotated_pages": 10,
+  "set_detection": {
+    "matched": 14,
+    "gold": 14,
+    "recall": 1.0,
+    "precision": null,
+    "precision_note": "Requires exhaustive set annotations; unavailable for a sampled fixture."
+  },
+  "components": {
+    "matched": 126,
+    "gold": 126,
+    "predicted_in_annotated_sets": 129,
+    "recall": 1.0,
+    "precision": 0.9767441860465116
+  },
+  "fields": {
+    "qty": {
+      "correct": 126,
+      "total": 126,
+      "accuracy": 1.0
+    },
+    "description": {
+      "correct": 123,
+      "total": 126,
+      "accuracy": 0.9761904761904762
+    },
+    "catalog_number": {
+      "correct": 116,
+      "total": 116,
+      "accuracy": 1.0
+    },
+    "mfr": {
+      "correct": 115,
+      "total": 115,
+      "accuracy": 1.0
+    },
+    "finish": {
+      "correct": 115,
+      "total": 115,
+      "accuracy": 1.0
+    },
+    "notes": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": null
+    }
+  },
+  "whole_row": {
+    "correct": 123,
+    "total": 126,
+    "accuracy": 0.9761904761904762
+  },
+  "set_fields": {
+    "description": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": null
+    },
+    "status": {
+      "correct": 14,
+      "total": 14,
+      "accuracy": 1.0
+    },
+    "notes": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": null
+    }
+  },
+  "mfr_finish_swaps": 0,
+  "details": [
+    {
+      "source_path": "81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf",
+      "pages": [
+        22
+      ],
+      "set_number": "37",
+      "detected": true,
+      "gold_components": 11,
+      "predicted_components": 11,
+      "matched_components": 11,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf",
+      "pages": [
+        22
+      ],
+      "set_number": "38",
+      "detected": true,
+      "gold_components": 6,
+      "predicted_components": 6,
+      "matched_components": 6,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf",
+      "pages": [
+        22
+      ],
+      "set_number": "39",
+      "detected": true,
+      "gold_components": 6,
+      "predicted_components": 6,
+      "matched_components": 6,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "pages": [
+        180,
+        181
+      ],
+      "set_number": "267",
+      "detected": true,
+      "gold_components": 6,
+      "predicted_components": 6,
+      "matched_components": 6,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "pages": [
+        181
+      ],
+      "set_number": "268",
+      "detected": true,
+      "gold_components": 5,
+      "predicted_components": 5,
+      "matched_components": 5,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Morris Bank/030f2d1d-Morris_Bank_Macon_-Spec_Manual_Issued_for_Const._1-26-26_FULL_SPECS.pdf",
+      "pages": [
+        251
+      ],
+      "set_number": "203",
+      "detected": true,
+      "gold_components": 6,
+      "predicted_components": 6,
+      "matched_components": 6,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "SAT TDP/2025.12.19 - SAT TDP - Project Manual.pdf",
+      "pages": [
+        807
+      ],
+      "set_number": "E210T",
+      "detected": true,
+      "gold_components": 10,
+      "predicted_components": 10,
+      "matched_components": 10,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "SAT TDP/2025.12.19 - SAT TDP - Project Manual.pdf",
+      "pages": [
+        807
+      ],
+      "set_number": "E210TW",
+      "detected": true,
+      "gold_components": 10,
+      "predicted_components": 10,
+      "matched_components": 10,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "SJC Well Behavioral/89671ede-20260218_SJC_BeWell_Bldg_B_85__DESIGN_UPDATE_-_SPECIFICATIONS.pdf",
+      "pages": [
+        740
+      ],
+      "set_number": "E11",
+      "detected": true,
+      "gold_components": 13,
+      "predicted_components": 13,
+      "matched_components": 13,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "StarHardware/9839d1a1-Division_8_Specs_-_Commons_Lane.pdf",
+      "pages": [
+        101
+      ],
+      "set_number": "31",
+      "detected": true,
+      "gold_components": 14,
+      "predicted_components": 16,
+      "matched_components": 14,
+      "extra_predicted_rows": [
+        13,
+        16
+      ],
+      "set_field_errors": {},
+      "component_errors": [
+        {
+          "gold_row": 11,
+          "predicted_row": 11,
+          "differences": {
+            "description": {
+              "expected": "REX Device (security/alarm notification)",
+              "actual": "REX Device (security/ alarm notification)"
+            }
+          },
+          "mfr_finish_swap": false
+        },
+        {
+          "gold_row": 12,
+          "predicted_row": 12,
+          "differences": {
+            "description": {
+              "expected": "Door Position Switches (also known as Alarm/Door Contacts)",
+              "actual": "Door Position Switches (also known as"
+            }
+          },
+          "mfr_finish_swap": false
+        },
+        {
+          "gold_row": 14,
+          "predicted_row": 15,
+          "differences": {
+            "description": {
+              "expected": "Coordination task for security and/or electrical design and additional non-Division 08 Section scope (including but not limited to wire / connectivity from ground or ceiling through frame to electrified hardware)",
+              "actual": "Coordination task for security and/or electrical design and additional non-Division 08 Section scope (including but not"
+            }
+          },
+          "mfr_finish_swap": false
+        }
+      ]
+    },
+    {
+      "source_path": "The Door Company _Copy_/Vantage TX-22 Div 01, 08.pdf",
+      "pages": [
+        418
+      ],
+      "set_number": "D201",
+      "detected": true,
+      "gold_components": 8,
+      "predicted_components": 9,
+      "matched_components": 8,
+      "extra_predicted_rows": [
+        9
+      ],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "The Door Company _Copy_/Vantage TX-22 Div 01, 08.pdf",
+      "pages": [
+        418,
+        419
+      ],
+      "set_number": "D204Z",
+      "detected": true,
+      "gold_components": 16,
+      "predicted_components": 16,
+      "matched_components": 16,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Village of Oswego New Public Works Facility  _Copy_/SPECIFICATIONS VOLUME 1.pdf",
+      "pages": [
+        437
+      ],
+      "set_number": "44",
+      "detected": true,
+      "gold_components": 8,
+      "predicted_components": 8,
+      "matched_components": 8,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Village of Oswego New Public Works Facility  _Copy_/SPECIFICATIONS VOLUME 1.pdf",
+      "pages": [
+        437
+      ],
+      "set_number": "45",
+      "detected": true,
+      "gold_components": 7,
+      "predicted_components": 7,
+      "matched_components": 7,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    }
+  ]
+}

@@ -77,16 +77,20 @@ This approach is fast, reproducible, inspectable, and inexpensive. It avoids rel
 .venv\Scripts\python.exe -m pytest -q
 .venv\Scripts\python.exe -m hardware_sets evaluate --gold tests/fixtures/development_gold.json --corpus output/corpus --output output/evaluation-development.json
 .venv\Scripts\python.exe -m hardware_sets evaluate --gold tests/fixtures/project_sample.json --corpus output/corpus --output output/evaluation-project-sample.json
+.venv\Scripts\python.exe -m hardware_sets evaluate --gold tests/fixtures/heldout_gold.json --corpus output/corpus --output output/evaluation-heldout.json
+.venv\Scripts\python.exe -m scripts.evaluate_holdout_locations
+.venv\Scripts\python.exe -m scripts.evaluate_holdout_components
 ```
 
 Without a corpus run, replace `--corpus output/corpus` with `--source "Fresco Coding Challenge (Hardware Sets)"` to evaluate only labeled pages.
 
 - **Development sample:** 18 sets / 91 components / 8 documents, including missing quantities, centered multiline cells, an unused set, merged tables and a page continuation.
 - **Additional project sample:** 9 sets / 51 components / 3 further documents, transcribed before inspecting predictions for those pages. These share familiar vendor templates and are not a template-disjoint benchmark.
+- **Frozen holdout:** eight pages from eight other layout families, with 14 sets and 126 independently transcribed components. The first full-corpus run matched 14/14 sets and 126/126 expected components, produced three extra rows, and matched 123/126 complete annotated rows exactly (97.6%), with zero manufacturer/finish swaps. Separate location checks cover all 17 printed headings and all 126 labeled component rows on the holdout pages and adjacent continuation pages.
 - Both selected-page checks found all annotated sets/components and matched all annotated component fields, with zero manufacturer/finish swaps. See [validation scope and results](docs/VALIDATION.md).
 - Automated tests cover ambiguous codes under opposite column orders, page boundaries, missing quantities, unused sets, strikeouts versus underlines, API persistence and one-to-one evaluation matching. A browser smoke test exercises editing, saving, exports, source overlays, error recovery and a 390-pixel mobile viewport.
 
-**These samples do not establish 90%+ accuracy across the entire corpus.** Full processing coverage is not accuracy. Evaluation counts missing rows against every annotated field and never reuses one predicted row to satisfy duplicate expected rows. Set precision is left undefined because the annotations do not exhaustively label every set on every page.
+**The frozen holdout exceeds 90% on the measured sample; it cannot guarantee 90%+ across every row of all 43 PDFs.** Full processing coverage is not accuracy. Evaluation counts missing rows against every annotated field and never reuses one predicted row to satisfy duplicate expected rows. Set precision is measured separately on an exhaustive 17-heading holdout scope.
 
 ## Known limits
 
