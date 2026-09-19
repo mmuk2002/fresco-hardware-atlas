@@ -5,7 +5,7 @@
 - Repository: https://github.com/mmuk2002/fresco-hardware-atlas (or `output/submission/fresco-hardware-atlas-repository.zip`).
 - Local deployment: follow the setup and run commands in the root `README.md`.
 - Demo: attach `output/demo/hardware-atlas-demo.mp4` directly to your email.
-- Validation evidence: `docs/VALIDATION.md`, `docs/CORPUS_AUDIT.md`, and `docs/validation/`.
+- Validation evidence: `docs/VALIDATION.md`, `docs/CORPUS_AUDIT.md`, `docs/validation/`, and the [manual acceptance pass](validation/MANUAL_ACCEPTANCE.md).
 
 ## Before sending
 
