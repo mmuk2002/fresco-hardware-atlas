@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#173d37" />
+    <title>Hardware Atlas — Specification review</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <script defer src="/static/app.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Document library">
+        <a class="brand" href="/" aria-label="Hardware Atlas home">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span>Hardware Atlas<small>SPECIFICATION INTELLIGENCE</small></span>
+        </a>
+        <div class="library-heading"><h2>Your documents</h2><span id="library-count" class="count">0</span></div>
+        <label class="search-field"><span aria-hidden="true">⌕</span><input id="document-search" type="search" placeholder="Find a specification…" aria-label="Search documents" /></label>
+        <div id="document-list" class="document-list" aria-live="polite"><p class="list-message">Loading document library…</p></div>
+        <div class="sidebar-bottom">
+          <label class="upload-button" id="upload-label" for="file-upload"><span aria-hidden="true">＋</span> Add a specification</label>
+          <input id="file-upload" type="file" accept=".pdf,application/pdf" class="visually-hidden" />
+          <p id="upload-status" class="upload-status" aria-live="polite">PDF documents · processed locally</p>
+          <div class="division-label"><span class="small-square"></span> DIVISION 08 / OPENINGS</div>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar"><div class="breadcrumb">WORKSPACE <span>/</span> HARDWARE SETS</div><span class="local-badge"><i></i> Local workspace</span></header>
+        <div id="notice" class="notice" role="status" hidden></div>
+        <section id="empty-state" class="empty-state" hidden>
+          <div class="empty-art" aria-hidden="true"><span>08</span><i></i><i></i><i></i></div>
+          <p class="eyebrow">FROM SPECIFICATION TO STRUCTURE</p>
+          <h1>Every hardware set.<br />A clear source of truth.</h1>
+          <p>Extract door hardware schedules, inspect their source pages, and refine the details in one place.</p>
+          <label for="file-upload" class="button primary empty-upload">＋ Add your first PDF</label>
+          <p class="empty-footnote">Already have a folder of specifications? Run the corpus import command in the README to populate this library.</p>
+        </section>
+        <section id="loading-state" class="loading-state" hidden><span class="spinner"></span><h2>Opening specification</h2><p>Loading the extracted sets and source evidence.</p></section>
+        <section id="workspace" hidden>
+          <div class="document-heading">
+            <div class="heading-copy"><p class="eyebrow">SPECIFICATION REVIEW</p><h1 id="document-title"></h1><p id="document-subtitle" class="document-subtitle"></p></div>
+            <div class="document-actions"><label class="ocr-option" title="Enable OCR for scanned pages. Requires local Tesseract language data."><input id="use-ocr" type="checkbox" /> OCR scans</label><button id="extract-button" class="button secondary" type="button">Re-extract</button><div class="export-menu"><button id="export-button" class="button dark" type="button" aria-haspopup="true" aria-expanded="false">Export <span aria-hidden="true">↓</span></button><div id="export-options" class="export-options" hidden><a id="export-json" download>JSON · full evidence</a><a id="export-csv" download>CSV · components</a></div></div></div>
+          </div>
+          <div class="overview-bar">
+            <div class="overview-stat"><strong id="stat-sets">0</strong><span>hardware sets</span></div>
+            <div class="overview-stat"><strong id="stat-components">0</strong><span>components</span></div>
+            <div class="overview-stat"><strong id="stat-pages">0</strong><span>source pages</span></div>
+            <div class="overview-stat attention-stat"><span class="attention-dot"></span><strong id="stat-review">0</strong><span>sets to inspect</span></div>
+          </div>
+          <details id="document-warnings" class="document-warnings" hidden><summary>Document extraction notes</summary><ul id="document-warning-list"></ul></details>
+          <section class="set-browser" aria-label="Hardware sets">
+            <div class="set-browser-heading"><h2>Hardware sets <span id="set-result-count"></span></h2><div class="set-tools"><input id="set-search" type="search" placeholder="Search sets or components" aria-label="Search hardware sets and components" /><select id="set-filter" aria-label="Filter hardware sets"><option value="all">All sets</option><option value="attention">Needs inspection</option><option value="not_used">Not used</option></select></div></div>
+            <nav id="set-list" class="set-list" aria-label="Select a hardware set"></nav>
+          </section>
+          <div id="no-sets" class="no-sets" hidden><h2>No hardware sets to display</h2><p id="no-sets-message">Extract this document to identify its hardware schedules.</p></div>
+          <div id="review-layout" class="review-layout" hidden>
+            <section class="source-panel panel" aria-label="Original specification page">
+              <div class="panel-header"><div><span class="panel-index">01</span><h2>Source document</h2></div><span class="evidence-label"><i></i> Source evidence</span></div>
+              <div class="source-toolbar"><div class="page-navigation"><button id="previous-page" type="button" aria-label="Previous source page">‹</button><label for="page-select">Page <select id="page-select" aria-label="Source page"></select></label><button id="next-page" type="button" aria-label="Next source page">›</button></div><div class="zoom-controls"><button id="zoom-out" type="button" aria-label="Zoom out">−</button><span id="zoom-value">Fit</span><button id="zoom-in" type="button" aria-label="Zoom in">＋</button><button id="zoom-reset" type="button" title="Fit page width" aria-label="Fit page width">↙</button></div></div>
+              <div id="source-viewport" class="source-viewport"><div id="page-stage" class="page-stage"><img id="source-image" alt="Original specification page" /><div id="source-overlays" class="source-overlays" aria-hidden="true"></div></div><p id="source-error" class="source-error" hidden></p></div>
+              <div class="source-footer"><span><i class="legend-outline"></i> Selected set</span><span id="source-location"></span></div>
+            </section>
+            <section class="editor-panel panel" aria-label="Extracted hardware set">
+              <div class="panel-header"><div><span class="panel-index">02</span><h2>Extracted details</h2></div><span id="confidence-badge" class="confidence-badge" title="A heuristic score based on parsing evidence, not a calibrated probability of correctness."></span></div>
+              <div class="editor-body">
+                <div class="set-fields"><label class="field-label set-number-field">SET NUMBER<input id="edit-set-number" type="text" /></label><label class="field-label set-status-field">STATUS<select id="edit-set-status"><option value="active">Active</option><option value="not_used">Not used</option></select></label><label class="field-label set-description-field">DESCRIPTION<input id="edit-set-description" type="text" placeholder="No set description provided" /></label></div>
+                <div id="set-warnings" class="set-warnings" hidden></div>
+                <div class="component-heading"><h3>Components <span id="component-count" class="count"></span></h3><button id="add-component" type="button" class="text-button">＋ Add row</button></div>
+                <p class="table-help">Edit any field. Leave quantity blank when unspecified. Amber marks lower confidence.</p>
+                <div class="component-table-wrap"><table class="component-table"><thead><tr><th scope="col">Qty</th><th scope="col">Description</th><th scope="col">Catalog no.</th><th scope="col">Mfr</th><th scope="col">Finish</th><th scope="col">Notes</th><th scope="col"><span class="visually-hidden">Actions</span></th></tr></thead><tbody id="component-rows"></tbody></table></div>
+                <p id="no-components" class="no-components" hidden>This set has no listed components.</p>
+                <details id="set-notes" class="set-notes" hidden><summary>Set notes &amp; source text</summary><div id="set-notes-content"></div></details>
+                <div class="confidence-explainer"><span aria-hidden="true">ⓘ</span><p>Confidence scores are heuristic. Check ambiguous manufacturer and finish codes against the source columns.</p></div>
+              </div>
+              <footer class="save-bar"><span id="save-state" class="save-state"><i></i> No unsaved changes</span><div><button id="reset-button" class="button subtle" type="button" disabled>Discard</button><button id="save-button" class="button primary" type="button" disabled>Save corrections</button></div></footer>
+            </section>
+          </div>
+          <footer class="workspace-footer"><span>HARDWARE ATLAS</span><p>Structured data. Traceable to the page.</p><span class="keyboard-hint">Ctrl / ⌘ S to save</span></footer>
+        </section>
+      </main>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  </body>
+</html>

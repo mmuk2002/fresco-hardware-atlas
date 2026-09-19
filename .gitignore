@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+data/
+tmp/
+output/
+node_modules/
+Fresco Coding Challenge (Hardware Sets)/
+*.egg-info/
+.coverage
+dist/
+build/

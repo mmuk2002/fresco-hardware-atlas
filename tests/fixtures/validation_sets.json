@@ -1,0 +1,511 @@
+[
+  {
+    "source_path": "2353 Gerrard Street Shelter/Hdw Spec & Sch-IFT_5.pdf",
+    "page": 19,
+    "set_number": "AL 01",
+    "components": [
+      {
+        "qty": 1,
+        "description": "Continuous Hinge(s)",
+        "catalog_number": "780-112HD x LAR EPT Prep",
+        "mfr": "HA",
+        "finish": "CLR",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Power Transfer(s)",
+        "catalog_number": "2-679-0623",
+        "mfr": "HA",
+        "finish": "ALM",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Exit Device",
+        "catalog_number": "40-CBK ER EX EC2",
+        "mfr": "DE",
+        "finish": "630",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Mortise Cylinder(s)",
+        "catalog_number": "3902 x LAR",
+        "mfr": "HA",
+        "finish": "US26D",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Construction Core(s)",
+        "catalog_number": "3982-BLU",
+        "mfr": "HA",
+        "finish": "BLU",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "SFIC Core(s)",
+        "catalog_number": "3969-C",
+        "mfr": "HA",
+        "finish": "US26D",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Offset Door Pull(s)",
+        "catalog_number": "910P 36",
+        "mfr": "HA",
+        "finish": "US10B",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Overhead Stop(s)",
+        "catalog_number": "7016 SRF",
+        "mfr": "HA",
+        "finish": "US32D",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Single Operator",
+        "catalog_number": "8318 Push",
+        "mfr": "HA",
+        "finish": "ALM",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Thermally Broken Threshold",
+        "catalog_number": "420S x LAR",
+        "mfr": "HA",
+        "finish": "MIL",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Weatherstrip",
+        "catalog_number": "By Frame Mfr./Supplier",
+        "mfr": null,
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Sweep(s)",
+        "catalog_number": "750S N x LAR",
+        "mfr": "HA",
+        "finish": "CLR",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Rain Drip",
+        "catalog_number": "810S x LAR",
+        "mfr": "HA",
+        "finish": "MIL",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Door Position Switch(es)",
+        "catalog_number": "2-679-0626",
+        "mfr": "HA",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 2,
+        "description": "Actuator(s)",
+        "catalog_number": "8228-02H/00",
+        "mfr": "HA",
+        "finish": "US32D",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Reader/Keypad",
+        "catalog_number": "By Security Provider",
+        "mfr": null,
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Intercom",
+        "catalog_number": "By Security Provider",
+        "mfr": null,
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Remote Exit Button",
+        "catalog_number": "By Security Provider",
+        "mfr": null,
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Power Supply",
+        "catalog_number": "By Security Provider",
+        "mfr": null,
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Wiring Diagrams",
+        "catalog_number": "Wiring Diagrams",
+        "mfr": null,
+        "finish": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "source_path": "AMI _Copy_/c43c36d9-000_Full_Volume_ATC_Renovation_Bid_Specs_Volume_1__1_.pdf",
+    "page": 397,
+    "set_number": "01A",
+    "components": [
+      {
+        "qty": 6,
+        "description": "HINGE",
+        "catalog_number": "5BB1 4.5 X 4.5 NRP",
+        "mfr": "IVE",
+        "finish": "652",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "CONST LATCHING BOLT",
+        "catalog_number": "FB51P",
+        "mfr": "IVE",
+        "finish": "630",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "DUST PROOF STRIKE",
+        "catalog_number": "DP2",
+        "mfr": "IVE",
+        "finish": "626",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "PASSAGE SET",
+        "catalog_number": "L9010 17A",
+        "mfr": "SCH",
+        "finish": "626",
+        "notes": null
+      },
+      {
+        "qty": 2,
+        "description": "OH STOP",
+        "catalog_number": "100S",
+        "mfr": "GLY",
+        "finish": "630",
+        "notes": null
+      },
+      {
+        "qty": 2,
+        "description": "SURFACE CLOSER",
+        "catalog_number": "4040XP",
+        "mfr": "LCN",
+        "finish": "689",
+        "notes": null
+      },
+      {
+        "qty": 2,
+        "description": "KICK PLATE",
+        "catalog_number": "8400 8\" X 1\" LDW B-CS",
+        "mfr": "IVE",
+        "finish": "630",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "GASKETING",
+        "catalog_number": "488FSBK PSA",
+        "mfr": "ZER",
+        "finish": "BK",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "WEATHERSTRIPPING",
+        "catalog_number": "8217SBK PSA",
+        "mfr": "ZER",
+        "finish": "BK",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "source_path": "JC Ryan 2/087100 - Door Hardware-6.pdf",
+    "page": 28,
+    "set_number": "1.0",
+    "components": [
+      {
+        "qty": 1,
+        "description": "Continuous Hinge",
+        "catalog_number": "CFMxxHD1-M (Length Required)",
+        "mfr": "Pemko",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Storeroom/Closet Lock",
+        "catalog_number": "8204 LNMI",
+        "mfr": "Sargent",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Door Closer",
+        "catalog_number": "UNI7500",
+        "mfr": "Norton",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Jamb Gasketing",
+        "catalog_number": "290_S (Finish to match door/frame color)",
+        "mfr": "Pemko",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Head Gasketing",
+        "catalog_number": "2891_S (Finish to match door/frame color)",
+        "mfr": "Pemko",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Door Bottom",
+        "catalog_number": "216AFG",
+        "mfr": "Pemko",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Threshold",
+        "catalog_number": "To Suit Sill Condition",
+        "mfr": null,
+        "finish": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "source_path": "JC Ryan 2/087100 - Door Hardware-6.pdf",
+    "page": 28,
+    "set_number": "2.0",
+    "components": [
+      {
+        "qty": null,
+        "description": "Hinge, Full Mortise",
+        "catalog_number": "T4A3786",
+        "mfr": "McKinney",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Electric Power Transfer",
+        "catalog_number": "EL-CEPT",
+        "mfr": "Securitron",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Fail Safe Exit Device, RX",
+        "catalog_number": "[12] 55 PE8875 ETMI",
+        "mfr": "Sargent",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Surface Closer (Mounted on stairwell side of door)",
+        "catalog_number": "7500",
+        "mfr": "Norton",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Kick Plate",
+        "catalog_number": "K1050 x 10\" High x CSK x 4BE",
+        "mfr": "Rockwood",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Stop",
+        "catalog_number": "RM860 / 446 / 9-ADJ Series Per Conditions",
+        "mfr": "Rockwood",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Gasketing",
+        "catalog_number": "S44BL",
+        "mfr": "Pemko",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Door Sweep",
+        "catalog_number": "315CN",
+        "mfr": "Pemko",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Threshold",
+        "catalog_number": "151A",
+        "mfr": "Pemko",
+        "finish": null,
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Door/Frame Harness",
+        "catalog_number": null,
+        "mfr": null,
+        "finish": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "source_path": "Valor Acres Building E/087100-DOOR-HARDWARE_Rev_2.pdf",
+    "page": 7,
+    "set_number": "01",
+    "components": [
+      {
+        "qty": 3,
+        "description": "BB HINGE",
+        "catalog_number": null,
+        "mfr": null,
+        "finish": "BLK",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "ENTRY SET (SCHLAGE LATITUDE LEVER STYLE)",
+        "catalog_number": null,
+        "mfr": null,
+        "finish": "BLK",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "DEADBOLT W/ KEYFOB ACCESS",
+        "catalog_number": null,
+        "mfr": null,
+        "finish": "BLK",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "OH STOP",
+        "catalog_number": null,
+        "mfr": null,
+        "finish": "BLK",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "SURFACE CLOSER",
+        "catalog_number": null,
+        "mfr": null,
+        "finish": "BLK",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "SEALS (SMOKE)",
+        "catalog_number": null,
+        "mfr": null,
+        "finish": "BLK",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "DOOR VIEWER",
+        "catalog_number": null,
+        "mfr": null,
+        "finish": "BLK",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "source_path": "Forest Park School/Project Manual (1).pdf",
+    "pages": [
+      262,
+      263
+    ],
+    "set_number": "1",
+    "components": [
+      {
+        "qty": 3,
+        "description": "Hinge",
+        "catalog_number": "FBB179 NRP 4.5X4.5",
+        "mfr": "BES",
+        "finish": "26D",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Mortise Lock-Storeroom",
+        "catalog_number": "45H-0D-15H LESS CYLINDER",
+        "mfr": "BES",
+        "finish": "626",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Mortise Cylinder",
+        "catalog_number": "CR1000-XXX-CAM-7 59D1 (TIE TO SYSTEM)",
+        "mfr": "C-R",
+        "finish": "626",
+        "notes": null
+      },
+      {
+        "qty": 1,
+        "description": "Surface Overhead Stop",
+        "catalog_number": "4420 SERIES",
+        "mfr": "ABH",
+        "finish": "US32D",
+        "notes": null
+      },
+      {
+        "qty": 3,
+        "description": "Silencers",
+        "catalog_number": "500",
+        "mfr": "BRN",
+        "finish": "Gray",
+        "notes": null
+      }
+    ]
+  }
+]

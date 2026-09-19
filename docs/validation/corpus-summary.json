@@ -1,0 +1,441 @@
+{
+  "document_count": 43,
+  "documents": [
+    {
+      "source_path": "2353 Gerrard Street Shelter/2.02 2535 Gerrard Shelter-Issued for Tender_5-Architectural Specifications.pdf",
+      "output_file": "2353-Gerrard-Street-Shelter-2.02-2535-Gerrard-Shelter-Issued-for-Tender_5-Architectural-Specificatio-e93500e2d0b8.json",
+      "status": "ok",
+      "page_count": 255,
+      "set_count": 35,
+      "component_count": 462,
+      "warning_count": 0,
+      "elapsed_seconds": 6.933
+    },
+    {
+      "source_path": "2353 Gerrard Street Shelter/Hdw Spec & Sch-IFT_5.pdf",
+      "output_file": "2353-Gerrard-Street-Shelter-Hdw-Spec-Sch-IFT_5-f989646d6649.json",
+      "status": "ok",
+      "page_count": 36,
+      "set_count": 35,
+      "component_count": 462,
+      "warning_count": 0,
+      "elapsed_seconds": 1.585
+    },
+    {
+      "source_path": "81-85 Bridgeport/08-10-00-Hollow-Metal-Doors-Frames_Rev_0.pdf",
+      "output_file": "81-85-Bridgeport-08-10-00-Hollow-Metal-Doors-Frames_Rev_0-341aef0f4201.json",
+      "status": "ok",
+      "page_count": 3,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.126
+    },
+    {
+      "source_path": "81-85 Bridgeport/08-20-00-Wood-Doors_Rev_0.pdf",
+      "output_file": "81-85-Bridgeport-08-20-00-Wood-Doors_Rev_0-658ef942c4c4.json",
+      "status": "ok",
+      "page_count": 3,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.106
+    },
+    {
+      "source_path": "81-85 Bridgeport/08-70-00-Hardware-Schedule.pdf",
+      "output_file": "81-85-Bridgeport-08-70-00-Hardware-Schedule-a5e8f3117ef3.json",
+      "status": "ok",
+      "page_count": 49,
+      "set_count": 90,
+      "component_count": 739,
+      "warning_count": 0,
+      "elapsed_seconds": 2.695
+    },
+    {
+      "source_path": "81-85 Bridgeport/08-70-00-Hardware-Schedule_Rev_0.pdf",
+      "output_file": "81-85-Bridgeport-08-70-00-Hardware-Schedule_Rev_0-bd0d7a84a7f4.json",
+      "status": "ok",
+      "page_count": 238,
+      "set_count": 90,
+      "component_count": 739,
+      "warning_count": 1,
+      "elapsed_seconds": 5.893
+    },
+    {
+      "source_path": "AMI _Copy_/c43c36d9-000_Full_Volume_ATC_Renovation_Bid_Specs_Volume_1__1_.pdf",
+      "output_file": "AMI-_Copy_-c43c36d9-000_Full_Volume_ATC_Renovation_Bid_Specs_Volume_1__1_-732e25ba567d.json",
+      "status": "ok",
+      "page_count": 611,
+      "set_count": 44,
+      "component_count": 404,
+      "warning_count": 1,
+      "elapsed_seconds": 15.613
+    },
+    {
+      "source_path": "Forest Park School/Project Manual (1).pdf",
+      "output_file": "Forest-Park-School-Project-Manual-1-62352a83993f.json",
+      "status": "ok",
+      "page_count": 344,
+      "set_count": 1,
+      "component_count": 5,
+      "warning_count": 1,
+      "elapsed_seconds": 5.969
+    },
+    {
+      "source_path": "HFH DG - HOSPITAL/08 71 00 - DOOR HARDWARE.pdf",
+      "output_file": "HFH-DG---HOSPITAL-08-71-00---DOOR-HARDWARE-76133601338e.json",
+      "status": "ok",
+      "page_count": 184,
+      "set_count": 190,
+      "component_count": 1902,
+      "warning_count": 1,
+      "elapsed_seconds": 7.72
+    },
+    {
+      "source_path": "HFH DG - HOSPITAL/08 71 00.01 - DOOR HARDWARE INDEX cut up.pdf",
+      "output_file": "HFH-DG---HOSPITAL-08-71-00.01---DOOR-HARDWARE-INDEX-cut-up-b33e77cf35a6.json",
+      "status": "ok",
+      "page_count": 32,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.794
+    },
+    {
+      "source_path": "JC Ryan 2/08 11 13 - HOLLOW METAL DOORS AND FRAMES.pdf",
+      "output_file": "JC-Ryan-2-08-11-13---HOLLOW-METAL-DOORS-AND-FRAMES-e5c107303ea0.json",
+      "status": "ok",
+      "page_count": 13,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.387
+    },
+    {
+      "source_path": "JC Ryan 2/08 14 16 - FLUSH WOOD DOORS.pdf",
+      "output_file": "JC-Ryan-2-08-14-16---FLUSH-WOOD-DOORS-b3f0cd9f2dca.json",
+      "status": "ok",
+      "page_count": 8,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.26
+    },
+    {
+      "source_path": "JC Ryan 2/087100 - Door Hardware-6.pdf",
+      "output_file": "JC-Ryan-2-087100---Door-Hardware-6-5f1daa9454b6.json",
+      "status": "ok",
+      "page_count": 46,
+      "set_count": 38,
+      "component_count": 266,
+      "warning_count": 0,
+      "elapsed_seconds": 1.429
+    },
+    {
+      "source_path": "Livelle Mulholland - Life Plan Community/2025-12-12_Livelle_Bid_Set_Project_Manual_Vol1_rev1.pdf",
+      "output_file": "Livelle-Mulholland---Life-Plan-Community-2025-12-12_Livelle_Bid_Set_Project_Manual_Vol1_rev1-7e0be4776a7d.json",
+      "status": "ok",
+      "page_count": 1191,
+      "set_count": 161,
+      "component_count": 1304,
+      "warning_count": 0,
+      "elapsed_seconds": 33.197
+    },
+    {
+      "source_path": "Livelle Mulholland - Life Plan Community/2025-12-12_Livelle_Bid_Set_Project_Manual_Vol2.pdf",
+      "output_file": "Livelle-Mulholland---Life-Plan-Community-2025-12-12_Livelle_Bid_Set_Project_Manual_Vol2-13cf517c2bff.json",
+      "status": "ok",
+      "page_count": 530,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 12.63
+    },
+    {
+      "source_path": "Livelle Mulholland - Life Plan Community/2025-12-12_Livelle_Bid_Set_Project_Manual_Vol3_rev1.pdf",
+      "output_file": "Livelle-Mulholland---Life-Plan-Community-2025-12-12_Livelle_Bid_Set_Project_Manual_Vol3_rev1-649809bbf720.json",
+      "status": "ok",
+      "page_count": 580,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 23.73
+    },
+    {
+      "source_path": "Livelle Mulholland - Life Plan Community/2025-12-12_Livelle_Bid_Set_Project_Manual_Vol4.pdf",
+      "output_file": "Livelle-Mulholland---Life-Plan-Community-2025-12-12_Livelle_Bid_Set_Project_Manual_Vol4-152aab1ae1ac.json",
+      "status": "ok",
+      "page_count": 103,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 3.458
+    },
+    {
+      "source_path": "Lyons Township HS/Project Manual (1).pdf",
+      "output_file": "Lyons-Township-HS-Project-Manual-1-397f86f066e3.json",
+      "status": "ok",
+      "page_count": 309,
+      "set_count": 29,
+      "component_count": 142,
+      "warning_count": 1,
+      "elapsed_seconds": 7.148
+    },
+    {
+      "source_path": "Market View Apartments/S_251107 Market View Prelim Project Manual_pdf.pdf",
+      "output_file": "Market-View-Apartments-S_251107-Market-View-Prelim-Project-Manual_pdf-1da915a893a2.json",
+      "status": "ok",
+      "page_count": 1053,
+      "set_count": 24,
+      "component_count": 209,
+      "warning_count": 0,
+      "elapsed_seconds": 20.627
+    },
+    {
+      "source_path": "Morris Bank/030f2d1d-Morris_Bank_Macon_-Spec_Manual_Issued_for_Const._1-26-26_FULL_SPECS.pdf",
+      "output_file": "Morris-Bank-030f2d1d-Morris_Bank_Macon_-Spec_Manual_Issued_for_Const._1-26-26_FULL_SPECS-917cb16278fd.json",
+      "status": "ok",
+      "page_count": 722,
+      "set_count": 49,
+      "component_count": 368,
+      "warning_count": 1,
+      "elapsed_seconds": 12.964
+    },
+    {
+      "source_path": "National Doors and Hardware/15e2b8ac-FS17_Specs_V1.pdf",
+      "output_file": "National-Doors-and-Hardware-15e2b8ac-FS17_Specs_V1-2e0d7ccb8963.json",
+      "status": "ok",
+      "page_count": 566,
+      "set_count": 15,
+      "component_count": 91,
+      "warning_count": 1,
+      "elapsed_seconds": 9.744
+    },
+    {
+      "source_path": "Roselle Public Library/081113_FL_-_Hollow_Metal_Doors_and_Frames.pdf",
+      "output_file": "Roselle-Public-Library-081113_FL_-_Hollow_Metal_Doors_and_Frames-84434554b3aa.json",
+      "status": "ok",
+      "page_count": 10,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.256
+    },
+    {
+      "source_path": "Roselle Public Library/081416_FL_-_Flush_Wood_Doors.pdf",
+      "output_file": "Roselle-Public-Library-081416_FL_-_Flush_Wood_Doors-1d0bc6720be0.json",
+      "status": "ok",
+      "page_count": 9,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.22
+    },
+    {
+      "source_path": "Roselle Public Library/083113_FL_-_Access_Doors_and_Frames.pdf",
+      "output_file": "Roselle-Public-Library-083113_FL_-_Access_Doors_and_Frames-f38740b00936.json",
+      "status": "ok",
+      "page_count": 4,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.133
+    },
+    {
+      "source_path": "Roselle Public Library/087100_FL_-_Door_Hardware_IFB_REVISED.pdf",
+      "output_file": "Roselle-Public-Library-087100_FL_-_Door_Hardware_IFB_REVISED-62d5f470fef7.json",
+      "status": "ok",
+      "page_count": 17,
+      "set_count": 33,
+      "component_count": 196,
+      "warning_count": 0,
+      "elapsed_seconds": 4.124
+    },
+    {
+      "source_path": "SAT TDP/2025.12.19 - SAT TDP - Project Manual.pdf",
+      "output_file": "SAT-TDP-2025.12.19---SAT-TDP---Project-Manual-2cea3f596788.json",
+      "status": "ok",
+      "page_count": 3930,
+      "set_count": 178,
+      "component_count": 1992,
+      "warning_count": 0,
+      "elapsed_seconds": 76.716
+    },
+    {
+      "source_path": "Shubie Center/e2231795-IFT_Specs.pdf",
+      "output_file": "Shubie-Center-e2231795-IFT_Specs-39ac6b9aa3f0.json",
+      "status": "ok",
+      "page_count": 201,
+      "set_count": 3,
+      "component_count": 31,
+      "warning_count": 0,
+      "elapsed_seconds": 3.703
+    },
+    {
+      "source_path": "SJC Well Behavioral/89671ede-20260218_SJC_BeWell_Bldg_B_85__DESIGN_UPDATE_-_SPECIFICATIONS.pdf",
+      "output_file": "SJC-Well-Behavioral-89671ede-20260218_SJC_BeWell_Bldg_B_85__DESIGN_UPDATE_-_SPECIFICATIONS-da4bfb69de1f.json",
+      "status": "ok",
+      "page_count": 2320,
+      "set_count": 97,
+      "component_count": 536,
+      "warning_count": 27,
+      "elapsed_seconds": 43.434
+    },
+    {
+      "source_path": "StarHardware/9839d1a1-Division_8_Specs_-_Commons_Lane.pdf",
+      "output_file": "StarHardware-9839d1a1-Division_8_Specs_-_Commons_Lane-049838ae0b69.json",
+      "status": "ok",
+      "page_count": 113,
+      "set_count": 71,
+      "component_count": 679,
+      "warning_count": 0,
+      "elapsed_seconds": 6.664
+    },
+    {
+      "source_path": "The Door Company _Copy_/Vantage TX-22 Div 01, 08.pdf",
+      "output_file": "The-Door-Company-_Copy_-Vantage-TX-22-Div-01-08-7298cd3404d7.json",
+      "status": "ok",
+      "page_count": 470,
+      "set_count": 44,
+      "component_count": 475,
+      "warning_count": 1,
+      "elapsed_seconds": 9.488
+    },
+    {
+      "source_path": "USI/c9634958-Radnet_Building_-_Specs.pdf",
+      "output_file": "USI-c9634958-Radnet_Building_-_Specs-31ebc3415b76.json",
+      "status": "ok",
+      "page_count": 1460,
+      "set_count": 1,
+      "component_count": 10,
+      "warning_count": 0,
+      "elapsed_seconds": 27.218
+    },
+    {
+      "source_path": "Valor Acres Building E/081113-HOLLOW-METAL-DOORS-AND-FRAMES_Rev_1.pdf",
+      "output_file": "Valor-Acres-Building-E-081113-HOLLOW-METAL-DOORS-AND-FRAMES_Rev_1-a25409f1ddb0.json",
+      "status": "ok",
+      "page_count": 10,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.203
+    },
+    {
+      "source_path": "Valor Acres Building E/081416-WOOD-DOORS-_Rev_1.pdf",
+      "output_file": "Valor-Acres-Building-E-081416-WOOD-DOORS-_Rev_1-34a8b18cf9a0.json",
+      "status": "ok",
+      "page_count": 9,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.159
+    },
+    {
+      "source_path": "Valor Acres Building E/083113-ACCESS-DOORS-AND-FRAMES_Rev_1.pdf",
+      "output_file": "Valor-Acres-Building-E-083113-ACCESS-DOORS-AND-FRAMES_Rev_1-7b8be439d00d.json",
+      "status": "ok",
+      "page_count": 4,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.103
+    },
+    {
+      "source_path": "Valor Acres Building E/084113-ALUMINUM-FRAMED-ENTRANCES-AND-STOREFRONTS_Rev_1.pdf",
+      "output_file": "Valor-Acres-Building-E-084113-ALUMINUM-FRAMED-ENTRANCES-AND-STOREFRONTS_Rev_1-c43f368dce3b.json",
+      "status": "ok",
+      "page_count": 13,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.23
+    },
+    {
+      "source_path": "Valor Acres Building E/084126-ALL-GLASS-ENTRANCES_Rev_0.pdf",
+      "output_file": "Valor-Acres-Building-E-084126-ALL-GLASS-ENTRANCES_Rev_0-d8f7570bb06c.json",
+      "status": "ok",
+      "page_count": 7,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.129
+    },
+    {
+      "source_path": "Valor Acres Building E/085313-RESIDENTIAL-WINDOWS-AND-DOORS-_Rev_1.pdf",
+      "output_file": "Valor-Acres-Building-E-085313-RESIDENTIAL-WINDOWS-AND-DOORS-_Rev_1-0581dbc3d6a1.json",
+      "status": "ok",
+      "page_count": 11,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.297
+    },
+    {
+      "source_path": "Valor Acres Building E/087100-DOOR-HARDWARE_Rev_2.pdf",
+      "output_file": "Valor-Acres-Building-E-087100-DOOR-HARDWARE_Rev_2-ce8c8241c01d.json",
+      "status": "ok",
+      "page_count": 18,
+      "set_count": 37,
+      "component_count": 234,
+      "warning_count": 0,
+      "elapsed_seconds": 0.688
+    },
+    {
+      "source_path": "Valor Acres Building E/088000-GLAZING_Rev_1.pdf",
+      "output_file": "Valor-Acres-Building-E-088000-GLAZING_Rev_1-503645da7b4e.json",
+      "status": "ok",
+      "page_count": 14,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.325
+    },
+    {
+      "source_path": "Valor Acres Building E/088300-MIRRORS_Rev_1.pdf",
+      "output_file": "Valor-Acres-Building-E-088300-MIRRORS_Rev_1-7e79395147b0.json",
+      "status": "ok",
+      "page_count": 7,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.166
+    },
+    {
+      "source_path": "Valor Acres Building E/088713-DECORATIVE-WINDOW-FILMS_Rev_0.pdf",
+      "output_file": "Valor-Acres-Building-E-088713-DECORATIVE-WINDOW-FILMS_Rev_0-a3a0358f6551.json",
+      "status": "ok",
+      "page_count": 4,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 1,
+      "elapsed_seconds": 0.091
+    },
+    {
+      "source_path": "Village of Oswego New Public Works Facility  _Copy_/SPECIFICATIONS VOLUME 1.pdf",
+      "output_file": "Village-of-Oswego-New-Public-Works-Facility-_Copy_-SPECIFICATIONS-VOLUME-1-29a780adbd92.json",
+      "status": "ok",
+      "page_count": 584,
+      "set_count": 39,
+      "component_count": 376,
+      "warning_count": 1,
+      "elapsed_seconds": 11.523
+    },
+    {
+      "source_path": "Woodridge Public Works/1548 - Specs - VOW - New Public Works Facility  - B&P.pdf",
+      "output_file": "Woodridge-Public-Works-1548---Specs---VOW---New-Public-Works-Facility---B-P-39d68ae56380.json",
+      "status": "ok",
+      "page_count": 1546,
+      "set_count": 0,
+      "component_count": 0,
+      "warning_count": 2,
+      "elapsed_seconds": 23.854
+    }
+  ],
+  "completed_count": 43,
+  "success_count": 43,
+  "error_count": 0,
+  "set_count": 1304,
+  "component_count": 11622,
+  "elapsed_seconds": 382.944
+}

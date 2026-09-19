@@ -1,0 +1,204 @@
+{
+  "scope": "Reviewed set/page annotations only; unannotated sets are excluded. This is not corpus-wide accuracy.",
+  "normalization": "Unicode NFKC, case, whitespace, typographic quotes/dashes; numeric quantity equivalence. No manufacturer aliases or code expansion.",
+  "matching": "Exact normalized set number with page overlap; one-to-one maximum-weight component identity matching (description/catalog).",
+  "annotated_documents": 3,
+  "annotated_pages": 3,
+  "set_detection": {
+    "matched": 9,
+    "gold": 9,
+    "recall": 1.0,
+    "precision": null,
+    "precision_note": "Requires exhaustive set annotations; unavailable for a sampled fixture."
+  },
+  "components": {
+    "matched": 51,
+    "gold": 51,
+    "predicted_in_annotated_sets": 51,
+    "recall": 1.0,
+    "precision": 1.0
+  },
+  "fields": {
+    "qty": {
+      "correct": 51,
+      "total": 51,
+      "accuracy": 1.0
+    },
+    "description": {
+      "correct": 51,
+      "total": 51,
+      "accuracy": 1.0
+    },
+    "catalog_number": {
+      "correct": 51,
+      "total": 51,
+      "accuracy": 1.0
+    },
+    "mfr": {
+      "correct": 51,
+      "total": 51,
+      "accuracy": 1.0
+    },
+    "finish": {
+      "correct": 51,
+      "total": 51,
+      "accuracy": 1.0
+    },
+    "notes": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": null
+    }
+  },
+  "whole_row": {
+    "correct": 51,
+    "total": 51,
+    "accuracy": 1.0
+  },
+  "set_fields": {
+    "description": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": null
+    },
+    "status": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": null
+    },
+    "notes": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": null
+    }
+  },
+  "mfr_finish_swaps": 0,
+  "details": [
+    {
+      "source_path": "Market View Apartments/S_251107 Market View Prelim Project Manual_pdf.pdf",
+      "pages": [
+        777
+      ],
+      "set_number": "15",
+      "detected": true,
+      "gold_components": 3,
+      "predicted_components": 3,
+      "matched_components": 3,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Market View Apartments/S_251107 Market View Prelim Project Manual_pdf.pdf",
+      "pages": [
+        777
+      ],
+      "set_number": "16",
+      "detected": true,
+      "gold_components": 5,
+      "predicted_components": 5,
+      "matched_components": 5,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Market View Apartments/S_251107 Market View Prelim Project Manual_pdf.pdf",
+      "pages": [
+        777
+      ],
+      "set_number": "17",
+      "detected": true,
+      "gold_components": 4,
+      "predicted_components": 4,
+      "matched_components": 4,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Market View Apartments/S_251107 Market View Prelim Project Manual_pdf.pdf",
+      "pages": [
+        777
+      ],
+      "set_number": "18",
+      "detected": true,
+      "gold_components": 7,
+      "predicted_components": 7,
+      "matched_components": 7,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "National Doors and Hardware/15e2b8ac-FS17_Specs_V1.pdf",
+      "pages": [
+        410
+      ],
+      "set_number": "09",
+      "detected": true,
+      "gold_components": 5,
+      "predicted_components": 5,
+      "matched_components": 5,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "National Doors and Hardware/15e2b8ac-FS17_Specs_V1.pdf",
+      "pages": [
+        410
+      ],
+      "set_number": "10",
+      "detected": true,
+      "gold_components": 6,
+      "predicted_components": 6,
+      "matched_components": 6,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "National Doors and Hardware/15e2b8ac-FS17_Specs_V1.pdf",
+      "pages": [
+        410
+      ],
+      "set_number": "11",
+      "detected": true,
+      "gold_components": 6,
+      "predicted_components": 6,
+      "matched_components": 6,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Shubie Center/e2231795-IFT_Specs.pdf",
+      "pages": [
+        175
+      ],
+      "set_number": "02",
+      "detected": true,
+      "gold_components": 5,
+      "predicted_components": 5,
+      "matched_components": 5,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Shubie Center/e2231795-IFT_Specs.pdf",
+      "pages": [
+        175
+      ],
+      "set_number": "03",
+      "detected": true,
+      "gold_components": 10,
+      "predicted_components": 10,
+      "matched_components": 10,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    }
+  ]
+}

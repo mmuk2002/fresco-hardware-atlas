@@ -1,0 +1,331 @@
+{
+  "scope": "Reviewed set/page annotations only; unannotated sets are excluded. This is not corpus-wide accuracy.",
+  "normalization": "Unicode NFKC, case, whitespace, typographic quotes/dashes; numeric quantity equivalence. No manufacturer aliases or code expansion.",
+  "matching": "Exact normalized set number with page overlap; one-to-one maximum-weight component identity matching (description/catalog).",
+  "annotated_documents": 8,
+  "annotated_pages": 9,
+  "set_detection": {
+    "matched": 18,
+    "gold": 18,
+    "recall": 1.0,
+    "precision": null,
+    "precision_note": "Requires exhaustive set annotations; unavailable for a sampled fixture."
+  },
+  "components": {
+    "matched": 91,
+    "gold": 91,
+    "predicted_in_annotated_sets": 91,
+    "recall": 1.0,
+    "precision": 1.0
+  },
+  "fields": {
+    "qty": {
+      "correct": 91,
+      "total": 91,
+      "accuracy": 1.0
+    },
+    "description": {
+      "correct": 91,
+      "total": 91,
+      "accuracy": 1.0
+    },
+    "catalog_number": {
+      "correct": 91,
+      "total": 91,
+      "accuracy": 1.0
+    },
+    "mfr": {
+      "correct": 91,
+      "total": 91,
+      "accuracy": 1.0
+    },
+    "finish": {
+      "correct": 91,
+      "total": 91,
+      "accuracy": 1.0
+    },
+    "notes": {
+      "correct": 91,
+      "total": 91,
+      "accuracy": 1.0
+    }
+  },
+  "whole_row": {
+    "correct": 91,
+    "total": 91,
+    "accuracy": 1.0
+  },
+  "set_fields": {
+    "description": {
+      "correct": 12,
+      "total": 12,
+      "accuracy": 1.0
+    },
+    "status": {
+      "correct": 1,
+      "total": 1,
+      "accuracy": 1.0
+    },
+    "notes": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0
+    }
+  },
+  "mfr_finish_swaps": 0,
+  "details": [
+    {
+      "source_path": "Lyons Township HS/Project Manual (1).pdf",
+      "pages": [
+        285
+      ],
+      "set_number": "01",
+      "detected": true,
+      "gold_components": 1,
+      "predicted_components": 1,
+      "matched_components": 1,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Lyons Township HS/Project Manual (1).pdf",
+      "pages": [
+        285
+      ],
+      "set_number": "02",
+      "detected": true,
+      "gold_components": 2,
+      "predicted_components": 2,
+      "matched_components": 2,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Lyons Township HS/Project Manual (1).pdf",
+      "pages": [
+        285
+      ],
+      "set_number": "03",
+      "detected": true,
+      "gold_components": 2,
+      "predicted_components": 2,
+      "matched_components": 2,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Lyons Township HS/Project Manual (1).pdf",
+      "pages": [
+        285
+      ],
+      "set_number": "04",
+      "detected": true,
+      "gold_components": 1,
+      "predicted_components": 1,
+      "matched_components": 1,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Lyons Township HS/Project Manual (1).pdf",
+      "pages": [
+        285
+      ],
+      "set_number": "05",
+      "detected": true,
+      "gold_components": 0,
+      "predicted_components": 0,
+      "matched_components": 0,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Livelle Mulholland - Life Plan Community/2025-12-12_Livelle_Bid_Set_Project_Manual_Vol1_rev1.pdf",
+      "pages": [
+        645
+      ],
+      "set_number": "5.0",
+      "detected": true,
+      "gold_components": 4,
+      "predicted_components": 4,
+      "matched_components": 4,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Livelle Mulholland - Life Plan Community/2025-12-12_Livelle_Bid_Set_Project_Manual_Vol1_rev1.pdf",
+      "pages": [
+        645
+      ],
+      "set_number": "6.0",
+      "detected": true,
+      "gold_components": 4,
+      "predicted_components": 4,
+      "matched_components": 4,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Livelle Mulholland - Life Plan Community/2025-12-12_Livelle_Bid_Set_Project_Manual_Vol1_rev1.pdf",
+      "pages": [
+        645
+      ],
+      "set_number": "7.0",
+      "detected": true,
+      "gold_components": 4,
+      "predicted_components": 4,
+      "matched_components": 4,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Livelle Mulholland - Life Plan Community/2025-12-12_Livelle_Bid_Set_Project_Manual_Vol1_rev1.pdf",
+      "pages": [
+        645
+      ],
+      "set_number": "8.0",
+      "detected": true,
+      "gold_components": 3,
+      "predicted_components": 3,
+      "matched_components": 3,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Roselle Public Library/087100_FL_-_Door_Hardware_IFB_REVISED.pdf",
+      "pages": [
+        17
+      ],
+      "set_number": "7.1",
+      "detected": true,
+      "gold_components": 4,
+      "predicted_components": 4,
+      "matched_components": 4,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Roselle Public Library/087100_FL_-_Door_Hardware_IFB_REVISED.pdf",
+      "pages": [
+        17
+      ],
+      "set_number": "7.2",
+      "detected": true,
+      "gold_components": 4,
+      "predicted_components": 4,
+      "matched_components": 4,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Roselle Public Library/087100_FL_-_Door_Hardware_IFB_REVISED.pdf",
+      "pages": [
+        17
+      ],
+      "set_number": "8.3",
+      "detected": true,
+      "gold_components": 4,
+      "predicted_components": 4,
+      "matched_components": 4,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "2353 Gerrard Street Shelter/Hdw Spec & Sch-IFT_5.pdf",
+      "pages": [
+        19
+      ],
+      "set_number": "AL 01",
+      "detected": true,
+      "gold_components": 20,
+      "predicted_components": 20,
+      "matched_components": 20,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "AMI _Copy_/c43c36d9-000_Full_Volume_ATC_Renovation_Bid_Specs_Volume_1__1_.pdf",
+      "pages": [
+        397
+      ],
+      "set_number": "01A",
+      "detected": true,
+      "gold_components": 9,
+      "predicted_components": 9,
+      "matched_components": 9,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "JC Ryan 2/087100 - Door Hardware-6.pdf",
+      "pages": [
+        28
+      ],
+      "set_number": "1.0",
+      "detected": true,
+      "gold_components": 7,
+      "predicted_components": 7,
+      "matched_components": 7,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "JC Ryan 2/087100 - Door Hardware-6.pdf",
+      "pages": [
+        28
+      ],
+      "set_number": "2.0",
+      "detected": true,
+      "gold_components": 10,
+      "predicted_components": 10,
+      "matched_components": 10,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Valor Acres Building E/087100-DOOR-HARDWARE_Rev_2.pdf",
+      "pages": [
+        7
+      ],
+      "set_number": "01",
+      "detected": true,
+      "gold_components": 7,
+      "predicted_components": 7,
+      "matched_components": 7,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    },
+    {
+      "source_path": "Forest Park School/Project Manual (1).pdf",
+      "pages": [
+        262,
+        263
+      ],
+      "set_number": "1",
+      "detected": true,
+      "gold_components": 5,
+      "predicted_components": 5,
+      "matched_components": 5,
+      "extra_predicted_rows": [],
+      "set_field_errors": {},
+      "component_errors": []
+    }
+  ]
+}

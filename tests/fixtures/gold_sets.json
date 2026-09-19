@@ -1,0 +1,136 @@
+[
+  {
+    "source_path": "Lyons Township HS/Project Manual (1).pdf",
+    "page": 285,
+    "set_number": "01",
+    "description": null,
+    "components": [
+      {"qty": 1, "description": "SURFACE CLOSER", "catalog_number": "4040XP SCUSH", "mfr": "LCN", "finish": "691", "notes": null}
+    ]
+  },
+  {
+    "source_path": "Lyons Township HS/Project Manual (1).pdf",
+    "page": 285,
+    "set_number": "02",
+    "description": null,
+    "components": [
+      {"qty": 1, "description": "SURFACE CLOSER", "catalog_number": "4041 DEL EDA", "mfr": "LCN", "finish": "691", "notes": null},
+      {"qty": 1, "description": "WALL STOP", "catalog_number": "WS401/402CCV", "mfr": "IVE", "finish": "612", "notes": null}
+    ]
+  },
+  {
+    "source_path": "Lyons Township HS/Project Manual (1).pdf",
+    "page": 285,
+    "set_number": "03",
+    "description": null,
+    "components": [
+      {"qty": 1, "description": "SURFACE CLOSER", "catalog_number": "4040XP EDA", "mfr": "LCN", "finish": "691", "notes": null},
+      {"qty": 1, "description": "WALL STOP", "catalog_number": "WS401/402CCV", "mfr": "IVE", "finish": "612", "notes": null}
+    ]
+  },
+  {
+    "source_path": "Lyons Township HS/Project Manual (1).pdf",
+    "page": 285,
+    "set_number": "04",
+    "description": null,
+    "components": [
+      {"qty": 1, "description": "SURFACE CLOSER", "catalog_number": "4040XP REG", "mfr": "LCN", "finish": "691", "notes": null}
+    ]
+  },
+  {
+    "source_path": "Lyons Township HS/Project Manual (1).pdf",
+    "page": 285,
+    "set_number": "05",
+    "description": "Not Used",
+    "status": "not_used",
+    "components": []
+  },
+  {
+    "source_path": "Livelle Mulholland - Life Plan Community/2025-12-12_Livelle_Bid_Set_Project_Manual_Vol1_rev1.pdf",
+    "page": 645,
+    "set_number": "5.0",
+    "description": "Unit Bath, Bedroom Door U1C",
+    "notes": "Furnish Door Stop 516 @ bedroom doors Furnish Door Stop 76306 @ bathroom doors",
+    "components": [
+      {"qty": 4, "description": "Hinge, Full Mortise", "catalog_number": "RC TA2714 4\" x 4\"", "mfr": "MK", "finish": "US15", "notes": null},
+      {"qty": 1, "description": "Privacy Lock", "catalog_number": "14 DLU65 COMB", "mfr": "SA", "finish": "US15", "notes": null},
+      {"qty": 1, "description": "Door Stop", "catalog_number": "519", "mfr": "RO", "finish": "US15", "notes": null},
+      {"qty": 1, "description": "Hinge Pin Door Stop", "catalog_number": "76306", "mfr": "MK", "finish": "US26D", "notes": null}
+    ]
+  },
+  {
+    "source_path": "Livelle Mulholland - Life Plan Community/2025-12-12_Livelle_Bid_Set_Project_Manual_Vol1_rev1.pdf",
+    "page": 645,
+    "set_number": "6.0",
+    "description": "Unit Bedroom, Powder Room Door U1",
+    "components": [
+      {"qty": 3, "description": "Hinge, Full Mortise", "catalog_number": "RC TA2714 4\" x 4\"", "mfr": "MK", "finish": "US15", "notes": null},
+      {"qty": 1, "description": "Privacy Lock", "catalog_number": "14 DLU65 COMB", "mfr": "SA", "finish": "US15", "notes": null},
+      {"qty": 1, "description": "Wall Stop", "catalog_number": "409", "mfr": "RO", "finish": "US32D", "notes": null},
+      {"qty": 1, "description": "Door Stop", "catalog_number": "519", "mfr": "RO", "finish": "US15", "notes": null}
+    ]
+  },
+  {
+    "source_path": "Livelle Mulholland - Life Plan Community/2025-12-12_Livelle_Bid_Set_Project_Manual_Vol1_rev1.pdf",
+    "page": 645,
+    "set_number": "7.0",
+    "description": "Unit Den Doors U5",
+    "notes": "Furnish Door Stop 519 where no wall occurs",
+    "components": [
+      {"qty": 3, "description": "Hinge, Full Mortise", "catalog_number": "RC TA2714 4\" x 4\"", "mfr": "MK", "finish": "US15", "notes": null},
+      {"qty": 1, "description": "Passage Latch", "catalog_number": "14 DLU15 COMB", "mfr": "SA", "finish": "US15", "notes": null},
+      {"qty": 1, "description": "Wall Stop", "catalog_number": "409", "mfr": "RO", "finish": "US32D", "notes": null},
+      {"qty": 1, "description": "Door Stop", "catalog_number": "519", "mfr": "RO", "finish": "US15", "notes": null}
+    ]
+  },
+  {
+    "source_path": "Livelle Mulholland - Life Plan Community/2025-12-12_Livelle_Bid_Set_Project_Manual_Vol1_rev1.pdf",
+    "page": 645,
+    "set_number": "8.0",
+    "description": "Unit Closet Door U8",
+    "notes": "Furnish 3 Hinges @ 8' high doors",
+    "components": [
+      {"qty": 2, "description": "Hinge, Full Mortise", "catalog_number": "RC T2714 3-1/2\" x 3-1/2\"", "mfr": "MK", "finish": "US15", "notes": null},
+      {"qty": 1, "description": "Passage Latch", "catalog_number": "13 14 DLU15 COMB", "mfr": "SA", "finish": "US15", "notes": null},
+      {"qty": 1, "description": "Hinge Pin Door Stop", "catalog_number": "76306", "mfr": "MK", "finish": "US26D", "notes": null}
+    ]
+  },
+  {
+    "source_path": "Roselle Public Library/087100_FL_-_Door_Hardware_IFB_REVISED.pdf",
+    "page": 17,
+    "set_number": "7.1",
+    "description": "MAKERSPACE ALL-GLASS ENTRANCE SINGLE DOOR",
+    "notes": "COORDINATE W/ ALL-GLASS ENTRANCE MFR.",
+    "components": [
+      {"qty": 2, "description": "PIVOT HINGE", "catalog_number": "CLEAR VIEW PIVOT HINGE", "mfr": "CRL", "finish": "613 (OIL RUBBED BRONZE)", "notes": null},
+      {"qty": 1, "description": "HANDLE SET", "catalog_number": "GLASS-MOUNT HANDLES DB100 W/ KEYED CYLINDER - FSIC PRIMUS", "mfr": "BLUMCRAFT", "finish": "613 (OIL RUBBED BRONZE)", "notes": "FULL HEIGHT 'F' STYLE"},
+      {"qty": 1, "description": "OH CLOSER", "catalog_number": "CONCEALED OVERHEAD CLOSER", "mfr": "CRL", "finish": "613 (OIL RUBBED BRONZE)", "notes": null},
+      {"qty": 1, "description": "FLOOR STOP", "catalog_number": "446", "mfr": "ROCKWOOD", "finish": "613 (OIL RUBBED BRONZE)", "notes": null}
+    ]
+  },
+  {
+    "source_path": "Roselle Public Library/087100_FL_-_Door_Hardware_IFB_REVISED.pdf",
+    "page": 17,
+    "set_number": "7.2",
+    "description": "PROGRAM RM ALL-GLASS ENTRANCE DBL DOORS",
+    "notes": "COORDINATE W/ ALL-GLASS ENTRANCE MFR.",
+    "components": [
+      {"qty": 4, "description": "PIVOT HINGE", "catalog_number": "CLEAR VIEW PIVOT HINGE", "mfr": "CRL", "finish": "613 (OIL RUBBED BRONZE)", "notes": null},
+      {"qty": 2, "description": "HANDLE SET", "catalog_number": "GLASS-MOUNT HANDLES DB100 W/ KEYED CYLINDER - FSIC PRIMUS", "mfr": "BLUMCRAFT", "finish": "613 (OIL RUBBED BRONZE)", "notes": "FULL HEIGHT 'F' STYLE"},
+      {"qty": 2, "description": "OH CLOSER", "catalog_number": "CONCEALED OVERHEAD CLOSER", "mfr": "CRL", "finish": "613 (OIL RUBBED BRONZE)", "notes": null},
+      {"qty": 2, "description": "FLOOR STOP", "catalog_number": "446", "mfr": "ROCKWOOD", "finish": "613 (OIL RUBBED BRONZE)", "notes": null}
+    ]
+  },
+  {
+    "source_path": "Roselle Public Library/087100_FL_-_Door_Hardware_IFB_REVISED.pdf",
+    "page": 17,
+    "set_number": "8.3",
+    "description": "WELLNESS SINGLE DOOR",
+    "components": [
+      {"qty": 3, "description": "MORTISE HINGE", "catalog_number": "5BB1 4.5\" x 4.5\"", "mfr": "IVES", "finish": "613 (OIL RUBBED BRONZE)", "notes": "FULL MORTISE, FIVE KNUCKLE BB HINGE"},
+      {"qty": 1, "description": "MORTISE LOCKSET", "catalog_number": "L9444, 18 LEVER, L ESCUTCHEON, 10-072 STRIKE", "mfr": "SCHLAGE", "finish": "613 (OIL RUBBED BRONZE)", "notes": "PRIVACY FUNCTION (\"OCCUPIED\") W/ DEADBOLT & COIN TURN"},
+      {"qty": 1, "description": "WALL STOP", "catalog_number": "WS401/402CCV", "mfr": "IVES", "finish": "613 (OIL RUBBED BRONZE)", "notes": "SEE PLANS FOR WALL CONSTRUCTION"},
+      {"qty": null, "description": "SILENCERS", "catalog_number": "SILENCER SI6X", "mfr": "IVES", "finish": "BLACK", "notes": "CONTRACTOR TO CONFIRM QUANTITIES"}
+    ]
+  }
+]

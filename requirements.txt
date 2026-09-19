@@ -1,0 +1,6 @@
+# Runtime versions used for the submitted corpus run.
+PyMuPDF==1.28.2
+pydantic==2.13.5
+fastapi==0.141.1
+uvicorn==0.53.0
+python-multipart==0.0.32

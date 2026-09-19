@@ -1,0 +1,308 @@
+{
+  "$defs": {
+    "Component": {
+      "additionalProperties": true,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "qty": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Qty"
+        },
+        "description": {
+          "default": "",
+          "title": "Description",
+          "type": "string"
+        },
+        "catalog_number": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Catalog Number"
+        },
+        "mfr": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mfr"
+        },
+        "finish": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Finish"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "confidence": {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "title": "Confidence",
+          "type": "object"
+        },
+        "locations": {
+          "items": {
+            "$ref": "#/$defs/Location"
+          },
+          "title": "Locations",
+          "type": "array"
+        },
+        "raw_text": {
+          "default": "",
+          "title": "Raw Text",
+          "type": "string"
+        },
+        "warnings": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Warnings",
+          "type": "array"
+        }
+      },
+      "title": "Component",
+      "type": "object"
+    },
+    "HardwareSet": {
+      "additionalProperties": true,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "set_number": {
+          "title": "Set Number",
+          "type": "string"
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Description"
+        },
+        "status": {
+          "default": "active",
+          "enum": [
+            "active",
+            "not_used"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "locations": {
+          "items": {
+            "$ref": "#/$defs/Location"
+          },
+          "title": "Locations",
+          "type": "array"
+        },
+        "components": {
+          "items": {
+            "$ref": "#/$defs/Component"
+          },
+          "title": "Components",
+          "type": "array"
+        },
+        "notes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Notes",
+          "type": "array"
+        },
+        "warnings": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Warnings",
+          "type": "array"
+        },
+        "confidence": {
+          "default": 0.0,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "corrected": {
+          "default": false,
+          "title": "Corrected",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "set_number"
+      ],
+      "title": "HardwareSet",
+      "type": "object"
+    },
+    "Location": {
+      "additionalProperties": true,
+      "description": "Top-left-origin PDF points; page is a one-based physical PDF page.",
+      "properties": {
+        "page": {
+          "minimum": 1,
+          "title": "Page",
+          "type": "integer"
+        },
+        "bbox": {
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 4,
+          "minItems": 4,
+          "title": "Bbox",
+          "type": "array"
+        },
+        "page_width": {
+          "exclusiveMinimum": 0,
+          "title": "Page Width",
+          "type": "number"
+        },
+        "page_height": {
+          "exclusiveMinimum": 0,
+          "title": "Page Height",
+          "type": "number"
+        },
+        "line_start": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Line Start"
+        },
+        "line_end": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Line End"
+        }
+      },
+      "required": [
+        "page",
+        "bbox",
+        "page_width",
+        "page_height"
+      ],
+      "title": "Location",
+      "type": "object"
+    }
+  },
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": {
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "name": {
+      "default": "",
+      "title": "Name",
+      "type": "string"
+    },
+    "project": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Project"
+    },
+    "page_count": {
+      "default": 0,
+      "minimum": 0,
+      "title": "Page Count",
+      "type": "integer"
+    },
+    "sets": {
+      "items": {
+        "$ref": "#/$defs/HardwareSet"
+      },
+      "title": "Sets",
+      "type": "array"
+    },
+    "warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    },
+    "stats": {
+      "additionalProperties": true,
+      "title": "Stats",
+      "type": "object"
+    }
+  },
+  "title": "ExtractionResult",
+  "type": "object"
+}
