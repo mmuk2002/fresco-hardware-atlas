@@ -103,7 +103,7 @@ Without a corpus run, replace `--corpus output/corpus` with `--source "Fresco Co
 
 ## Demo and repository map
 
-Use the [3–5 minute walkthrough](docs/DEMO.md). The prepared local demo video, when generated, is `output/demo/hardware-atlas-demo.mp4`; upload it to Loom or record the same walkthrough yourself. It demonstrates actual local results, not a hosted deployment.
+Use the [3–5 minute walkthrough](docs/DEMO.md). The prepared local demo video is `output/demo/hardware-atlas-demo.mp4`; attach it directly to the submission email. It demonstrates actual local results, not a hosted deployment.
 
 ```text
 hardware_sets/       extraction, schema, storage, API, CLI, evaluation

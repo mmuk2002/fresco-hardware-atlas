@@ -14,4 +14,4 @@ Run the corpus import and local app first. Browser: http://127.0.0.1:8000. Zoom 
 
 For the code-resolution bonus, show a result containing `catalog_resolution`: the printed short code is retained, while the expansion and the code-table bounding box appear in JSON and CSV. The review UI renders the expansion directly under its component row. Explain that only explicit same-page lookup evidence triggers this behavior.
 
-The optional generated MP4 uses actual browser interactions and a clearly synthetic system-voice narration. It is a local video file, not a published Loom link. Upload the MP4 to Loom, or use this script to record your own explanation.
+The generated MP4 uses actual browser interactions and a clearly synthetic system-voice narration. Attach the local video file directly to the submission email.
