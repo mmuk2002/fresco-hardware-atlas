@@ -19,6 +19,10 @@ the corpus was independently transcribed.
   descriptions and all non-null catalog, manufacturer and finish values were
   found in the corresponding source boxes. This verifies evidence linkage,
   while the independently labeled holdout remains the semantic accuracy test.
+- The [semantic proxy audit](CORPUS_SEMANTIC_PROXY.md) independently checked
+  all manufacturer/finish mappings against source column geometry. It found
+  **zero column-role exceptions** across the corpus after accounting for
+  explicit blank sentinels and multiword values.
 - The audit manifest supplied a stratified visual sample: first, middle and
   last candidate schedule pages (plus an adjacent midpoint page where
   available) from 25 schedule-bearing PDFs. This produced 99 rendered pages.

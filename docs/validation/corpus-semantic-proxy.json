@@ -1,0 +1,12 @@
+{
+  "scope": "All non-null mfr/finish fields in all saved corpus results",
+  "metrics": {
+    "components": 11622,
+    "mfr_finish_geometry_located": 3925,
+    "explicit_blank_fields": 1187,
+    "single_field_geometry_located": 3466,
+    "mfr_finish_column_confirmed": 3044
+  },
+  "exception_count": 0,
+  "exceptions": []
+}
