@@ -1,5 +1,91 @@
 {
   "$defs": {
+    "CatalogResolution": {
+      "additionalProperties": true,
+      "description": "Evidence-backed expansion of a shorthand code printed on the same page.",
+      "properties": {
+        "code": {
+          "title": "Code",
+          "type": "string"
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Description"
+        },
+        "catalog_number": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Catalog Number"
+        },
+        "mfr": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mfr"
+        },
+        "finish": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Finish"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "location": {
+          "$ref": "#/$defs/Location"
+        },
+        "confidence": {
+          "default": 0.0,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        }
+      },
+      "required": [
+        "code",
+        "location"
+      ],
+      "title": "CatalogResolution",
+      "type": "object"
+    },
     "Component": {
       "additionalProperties": true,
       "properties": {
@@ -100,6 +186,17 @@
           },
           "title": "Warnings",
           "type": "array"
+        },
+        "catalog_resolution": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CatalogResolution"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
         }
       },
       "title": "Component",

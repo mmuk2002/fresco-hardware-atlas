@@ -251,7 +251,9 @@ class DocumentStore:
 def export_csv(result: ExtractionResult) -> str:
     """Flatten components while retaining empty sets and multi-page locations."""
     fields = ["document", "project", "set_number", "set_description", "status", "pages", "locations",
-              "qty", "description", "catalog_number", "mfr", "finish", "notes", "corrected"]
+              "qty", "description", "catalog_number", "mfr", "finish", "notes",
+              "resolved_code", "resolved_description", "resolved_catalog_number", "resolved_mfr",
+              "resolved_finish", "resolution_location", "corrected"]
     stream = io.StringIO(newline="")
     writer = csv.DictWriter(stream, fieldnames=fields)
     writer.writeheader()
@@ -268,6 +270,16 @@ def export_csv(result: ExtractionResult) -> str:
             if component is not None:
                 row.update({field: getattr(component, field) for field in
                             ["qty", "description", "catalog_number", "mfr", "finish", "notes"]})
+                if component.catalog_resolution:
+                    resolution = component.catalog_resolution
+                    row.update({
+                        "resolved_code": resolution.code,
+                        "resolved_description": resolution.description,
+                        "resolved_catalog_number": resolution.catalog_number,
+                        "resolved_mfr": resolution.mfr,
+                        "resolved_finish": resolution.finish,
+                        "resolution_location": json.dumps(resolution.location.model_dump(mode="json")),
+                    })
             else:
                 row["notes"] = "; ".join(item.notes)
             # Exported PDFs can contain arbitrary text. Avoid spreadsheet formulas.

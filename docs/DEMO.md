@@ -12,4 +12,6 @@ Run the corpus import and local app first. Browser: http://127.0.0.1:8000. Zoom 
 | 3:05–3:45 | Show the tests/evaluation report and corpus audit. Discuss 18 development sets/91 components plus an additional 9 sets/51 components. Scores are sample-specific; whole-corpus accuracy is not established. Mention OCR and unfamiliar/revision layouts as review cases. |
 | 3:45–4:00 | Close with local run steps, JSON/CSV exports, and the practical next step: a larger independent, template-disjoint labeled benchmark. |
 
+For the code-resolution bonus, show a result containing `catalog_resolution`: the printed short code is retained, while the expansion and the code-table bounding box appear in JSON and CSV. The review UI renders the expansion directly under its component row. Explain that only explicit same-page lookup evidence triggers this behavior.
+
 The optional generated MP4 uses actual browser interactions and a clearly synthetic system-voice narration. It is a local video file, not a published Loom link. Upload the MP4 to Loom, or use this script to record your own explanation.

@@ -35,9 +35,11 @@ Reproduce either sample from a full corpus run using the README commands. The CL
 
 ## Automated and browser checks
 
-The automated suite covers the public extraction contract and failure-prone behavior: PE/NO under explicit reordered columns, genuine blank quantities, unused sets, a page-ending header, cross-page assembly, new-section termination, door assignment lists, quantity-after-catalog schemas, strikeouts versus underlines, overflowing prose, API error handling, upload limits, correction persistence and evaluation duplicate matching.
+The automated suite covers the public extraction contract and failure-prone behavior: PE/NO under explicit reordered columns, genuine blank quantities, unused sets, a page-ending header, list and merged-table cross-page assembly, new-section termination, door assignment lists, quantity-after-catalog schemas, explicit same-page code resolution with source evidence, strikeouts versus underlines, overflowing prose, API error handling, upload limits, correction persistence and evaluation duplicate matching.
 
 The Playwright browser smoke test uses an isolated store and real PDF results. It checks source highlights, editing, null quantities, draft retention, adding/removing rows, saved corrections, both exports, search/filtering, page/zoom controls, error recovery and mobile overflow. The test modifies its store, so do not point it at production review data.
+
+The same-page catalog-resolution bonus is covered by a generated PDF with real word geometry: an explicit `CODE / DESCRIPTION / CATALOG / MFR / FINISH` table defines code `A`, and a component using `A` receives the complete expansion plus the lookup row's page and bounding box. The current supplied-corpus run produced zero such expansions because no detected component used a code from an explicit same-page lookup table. This test proves the behavior without presenting synthetic coverage as corpus accuracy.
 
 ```powershell
 # Prepare an isolated store with a real extracted PDF first, then:

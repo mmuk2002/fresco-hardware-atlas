@@ -5,6 +5,7 @@ import pymupdf
 import pytest
 
 from hardware_sets.extract import extract_pdf, identify_header
+from hardware_sets.storage import export_csv
 
 
 def write_pdf(path: Path, pages):
@@ -14,6 +15,27 @@ def write_pdf(path: Path, pages):
             for y, cells in rows:
                 for x, text in cells:
                     page.insert_text((x, y), text, fontsize=10)
+        doc.save(path)
+    return path
+
+
+def write_ruled_schedule(path: Path, pages):
+    columns = [30, 100, 230, 410, 460, 520, 600]
+    headers = ['SET', 'HARDWARE TYPE', 'MANUFACTURER - PRODUCT', 'QTY', 'FINISH', 'NOTES']
+    with pymupdf.open() as doc:
+        for data_rows in pages:
+            page = doc.new_page(width=630, height=792)
+            ys = [60 + 34 * index for index in range(len(data_rows) + 2)]
+            for x in columns:
+                page.draw_line((x, ys[0]), (x, ys[-1]), color=(0, 0, 0), width=.7)
+            for y in ys:
+                page.draw_line((columns[0], y), (columns[-1], y), color=(0, 0, 0), width=.7)
+            for index, text in enumerate(headers):
+                page.insert_text((columns[index] + 3, 80), text, fontsize=7)
+            for row_index, row in enumerate(data_rows):
+                for column_index, text in enumerate(row):
+                    if text:
+                        page.insert_text((columns[column_index] + 3, 114 + row_index * 34), text, fontsize=8)
         doc.save(path)
     return path
 
@@ -128,6 +150,45 @@ def test_unruled_product_prose_can_extend_through_empty_code_columns(tmp_path):
     assert row.catalog_number == 'Provided to suit the opening by the frame manufacturer'
     assert row.mfr is None
     assert row.finish is None
+
+
+def test_explicit_same_page_code_legend_is_resolved_with_evidence(tmp_path):
+    path = write_pdf(tmp_path/'codes.pdf', [[
+        (55, [(60, 'CODE'), (120, 'DESCRIPTION'), (270, 'CATALOG'), (400, 'MFR'), (500, 'FINISH')]),
+        (75, [(60, 'A'), (120, 'Surface Closer'), (270, '4040XP'), (400, 'LCN'), (500, '689')]),
+        (130, [(60, 'SET #1')]), table_header(155),
+        (180, [(60, '1'), (100, 'Closer Package'), (280, 'A'), (460, '689'), (525, 'LCN')]),
+    ]])
+    result = extract_pdf(path)
+    resolution = result.sets[0].components[0].catalog_resolution
+    assert resolution is not None
+    assert (resolution.code, resolution.description, resolution.catalog_number) == ('A', 'Surface Closer', '4040XP')
+    assert (resolution.mfr, resolution.finish) == ('LCN', '689')
+    assert resolution.location.page == 1
+    assert result.stats['catalog_resolution_count'] == 1
+    csv_output = export_csv(result)
+    assert 'resolved_code' in csv_output
+    assert 'A,Surface Closer,4040XP,LCN,689' in csv_output
+
+    unresolved_path = write_pdf(tmp_path/'isolated-code.pdf', [[
+        (90, [(60, 'SET #2')]), table_header(120),
+        (145, [(60, '1'), (100, 'Closer Package'), (280, 'A'), (460, '689'), (525, 'LCN')]),
+    ]])
+    unresolved = extract_pdf(unresolved_path).sets[0].components[0]
+    assert unresolved.catalog_resolution is None
+
+
+def test_merged_table_set_can_continue_to_next_page(tmp_path):
+    path = write_ruled_schedule(tmp_path/'merged-continuation.pdf', [
+        [['1.1', 'Hinge', 'IVE - 5BB1', '3', '630', '']],
+        [['', 'Surface Closer', 'LCN - 4040XP', '1', '689', ''],
+         ['2.1', 'Wall Stop', 'IVE - WS406', '1', '630', '']],
+    ])
+    result = extract_pdf(path)
+    assert [hardware_set.set_number for hardware_set in result.sets] == ['1.1', '2.1']
+    assert [component.description for component in result.sets[0].components] == ['Hinge', 'Surface Closer']
+    assert [location.page for location in result.sets[0].locations] == [1, 2]
+    assert any('continues' in warning for warning in result.sets[0].warnings)
 
 
 @pytest.mark.parametrize('text,expected', [

@@ -45,7 +45,7 @@ There are no model-inference or API costs. Full text scanning is linear in page 
 
 ## Deliberate omissions
 
-No external catalog resolution, automated cross-file revision precedence, calibrated confidence, or multi-user authentication. OCR uses PyMuPDF's Tesseract integration when explicitly requested; it is not silently treated as equivalent to verified native text. The corpus audit and evaluation fixtures expose what was inspected rather than claiming unmeasured generalization.
+Explicit same-page code tables and legends can expand shorthand component codes while retaining both the printed value and the lookup location. Cross-page or external catalog resolution, automated cross-file revision precedence, calibrated confidence, and multi-user authentication remain outside the automatic path. OCR uses PyMuPDF's Tesseract integration when explicitly requested; it is not silently treated as equivalent to verified native text. The corpus audit and evaluation fixtures expose what was inspected rather than claiming unmeasured generalization.
 
 ## Primary references
 

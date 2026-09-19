@@ -41,6 +41,19 @@ class Location(EvidenceModel):
         return self
 
 
+class CatalogResolution(EvidenceModel):
+    """Evidence-backed expansion of a shorthand code printed on the same page."""
+
+    code: str
+    description: str | None = None
+    catalog_number: str | None = None
+    mfr: str | None = None
+    finish: str | None = None
+    notes: str | None = None
+    location: Location
+    confidence: float = Field(default=0.0, ge=0, le=1)
+
+
 class Component(EvidenceModel):
     id: str = Field(default_factory=lambda: uuid4().hex)
     qty: float | str | None = None
@@ -53,6 +66,7 @@ class Component(EvidenceModel):
     locations: list[Location] = Field(default_factory=list)
     raw_text: str = ""
     warnings: list[str] = Field(default_factory=list)
+    catalog_resolution: CatalogResolution | None = None
 
     @field_validator("confidence")
     @classmethod

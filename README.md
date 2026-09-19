@@ -52,7 +52,7 @@ Each `sets[]` entry contains:
 | `description` | Optional heading text |
 | `status` | `active` or `not_used`; unused sets retain an empty component list |
 | `locations[]` | One span per source page: `page`, `bbox`, page dimensions, and physical line range |
-| `components[]` | `qty`, `description`, `catalog_number`, `mfr`, `finish`, `notes`, and source evidence |
+| `components[]` | `qty`, `description`, `catalog_number`, `mfr`, `finish`, `notes`, source evidence, and an optional `catalog_resolution` |
 | `confidence`, `warnings` | Heuristic review scores and concrete extraction issues |
 
 Bounding boxes are `[left, top, right, bottom]` in PDF points, with a top-left origin. Multiple locations preserve multi-page sets. Components also retain their own boxes, `raw_text`, `qty_raw`, and unit where available. Missing quantities are `null`; fractions remain printed strings instead of being converted into an assumed unit.
@@ -65,7 +65,8 @@ See [the generated JSON schema](docs/output.schema.json) and [an actual extracte
 2. **Reconstruct evidence.** Group positioned words into physical lines. Remove rotated margin watermarks and private-use link/electrification glyphs without shifting adjacent finish values into another column.
 3. **Infer the schema before codes.** Explicit headers take priority. Otherwise, use repeated horizontal alignments, neighboring rows, local manufacturer legends, and distributions of recognizable values. `PE` and `NO` are deliberately excluded from standalone manufacturer/finish evidence; an established column role assigns them.
 4. **Segment sets and rows.** Preserve wrapped/centered cells, null quantities, unused sets, aliases, header-only page endings, and page continuations. Stop at a new specification section. A separate generic grid parser handles merged `SET / HARDWARE TYPE / MANUFACTURER - PRODUCT / QTY / FINISH / NOTES` tables.
-5. **Review instead of hiding uncertainty.** Display original pages, field scores and warnings. Store human corrections separately from original extraction, with an audit history. Exports include corrections.
+5. **Resolve explicit page-local codes.** When a page contains a labeled code table or legend, preserve the printed short code and attach its expanded description, catalog, manufacturer, finish, confidence, and lookup-table location. Isolated short codes are never expanded by guesswork.
+6. **Review instead of hiding uncertainty.** Display original pages, field scores and warnings. Store human corrections separately from original extraction, with an audit history. Exports include corrections and page-local code expansions.
 
 This approach is fast, reproducible, inspectable, and inexpensive. It avoids relying on a model to invent coordinates or resolve each short code in isolation. Its tradeoff is layout-specific heuristics: unusual unruled tables, malformed text layers and revision graphics can still require review. See [architecture](docs/ARCHITECTURE.md) and the [file-by-file corpus audit](docs/CORPUS_AUDIT.md).
 
@@ -91,7 +92,7 @@ Without a corpus run, replace `--corpus output/corpus` with `--source "Fresco Co
 
 - OCR requires a separate Tesseract installation and English language data. Add `--ocr`, or use the UI checkbox, to attempt OCR on text-poor pages. Native-text results were verified here; OCR accuracy was not benchmarked. Blank pages and scanned catalog attachments are also reported as text-poor.
 - Strikeout handling recognizes horizontal vectors and thin filled rectangles. Raster strikeouts, partial-word revisions and other revision conventions need manual review.
-- Short-code catalogs are preserved, but arbitrary `A -> complete component` lookup-table expansion is not implemented. No manufacturer/catalog values are invented from an external catalog.
+- Code expansion requires an explicit table or legend on the same PDF page. Cross-page legends, informal prose definitions, and external manufacturer catalogs are not applied automatically.
 - Scores are heuristic, not calibrated correctness probabilities. Absence, uncertain boundaries and unfamiliar layouts require source review.
 - Repeated source PDFs and repeated set IDs remain separate occurrences. Revisions are not automatically reconciled across different files.
 - This is a single-user local app. It binds to loopback by default; multi-user hosted deployment would need authentication, background jobs and a shared database.

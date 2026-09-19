@@ -11,9 +11,26 @@ import re
 
 from .models import Component, HardwareSet, Location
 
+HARDWARE_TERMS = {
+    "HINGE", "PIVOT", "CLOSER", "LOCK", "LOCKSET", "LATCH", "LATCHSET", "STRIKE",
+    "BOLT", "CORE", "CYLINDER", "HANDLE", "PULL", "PLATE", "STOP", "GASKET",
+    "GASKETING", "SEAL", "SILENCER", "SWEEP", "THRESHOLD", "ASTRAGAL", "COORDINATOR",
+    "OPERATOR", "ACTUATOR", "TRANSFER", "DEVICE", "HARNESS", "POWER", "READER",
+    "SWITCH", "HOLDER", "WEATHERSTRIP", "VIEWER", "BUMPER", "CATCH", "BRACKET",
+    "MULLION", "KEY", "KEYING", "BUTTON", "CONTROL", "INTERCOM", "RELAY", "PANIC",
+    "GUARD", "SENSOR", "PADLOCK",
+}
+
 
 def _clean(value: str | None) -> str:
-    return " ".join((value or "").split())
+    words = (value or "").split()
+    repaired: list[str] = []
+    for word in words:
+        if repaired and (repaired[-1] + word).upper() in HARDWARE_TERMS:
+            repaired[-1] += word
+        else:
+            repaired.append(word)
+    return " ".join(repaired)
 
 
 def _header(row: list[str | None]) -> dict[str, int] | None:
@@ -53,7 +70,8 @@ def _qty(value: str):
     return None
 
 
-def extract_table_page(pdf_page, page_number: int, source_digest: str) -> list[HardwareSet]:
+def extract_table_page(pdf_page, page_number: int, source_digest: str,
+                       continuation: HardwareSet | None = None) -> list[HardwareSet]:
     """Return sets from a recognized merged-cell schedule, or [] otherwise.
 
     Locations use one-based physical page numbers and top-left PDF points.
@@ -77,7 +95,8 @@ def extract_table_page(pdf_page, page_number: int, source_digest: str) -> list[H
                 break
         if roles is None:
             continue
-        current = None
+        current = continuation
+        continued_here = False
         for index in range(header_index + 1, len(rows)):
             row = rows[index]
             if _header(row):
@@ -105,8 +124,13 @@ def extract_table_page(pdf_page, page_number: int, source_digest: str) -> list[H
                     current.status = "not_used"
             if current is None:
                 continue
-            old = current.locations[0].bbox
-            current.locations[0].bbox = _box([old, bounds])
+            if current is continuation and not continued_here:
+                current.locations.append(Location(page=page_number, bbox=bounds,
+                    page_width=pdf_page.rect.width, page_height=pdf_page.rect.height))
+                current.warnings.append("Merged-table set continues across PDF pages.")
+                continued_here = True
+            target_location = next(location for location in current.locations if location.page == page_number)
+            target_location.bbox = _box([target_location.bbox, bounds])
             description, product = values["description"], values["product"]
             notes = values.get("notes", "")
             if not description and not product:

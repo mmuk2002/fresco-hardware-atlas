@@ -310,6 +310,18 @@
       actionCell.append(actions);
       row.append(actionCell);
       $("component-rows").append(row);
+      if (component.catalog_resolution) {
+        const resolution = component.catalog_resolution;
+        const details = [resolution.description, resolution.catalog_number, resolution.mfr, resolution.finish, resolution.notes].filter(Boolean);
+        const resolutionRow = element("tr", "code-resolution-row");
+        const resolutionCell = element("td");
+        resolutionCell.colSpan = fields.length + 1;
+        const page = resolution.location?.page ? ` · source p. ${resolution.location.page}` : "";
+        resolutionCell.textContent = `Resolved code ${resolution.code}: ${details.join(" · ")}${page}`;
+        resolutionCell.title = `Explicit same-page lookup · ${Math.round((resolution.confidence || 0) * 100)}% heuristic confidence`;
+        resolutionRow.append(resolutionCell);
+        $("component-rows").append(resolutionRow);
+      }
     });
   }
 

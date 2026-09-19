@@ -17,6 +17,7 @@ import pymupdf
 
 from .layout import Line, Page, Word, clean, line_location, read_page
 from .models import Component, ExtractionResult, HardwareSet, Location
+from .code_resolution import apply_code_lookups, find_code_lookups
 from .table_schedule import extract_table_page
 
 
@@ -416,7 +417,9 @@ def extract_pdf(path: str | Path, pages: list[int] | None = None, ocr: bool = Fa
     warnings: list[str] = []
     legend: set[str] = set()
     active: HardwareSet | None = None
+    table_active: HardwareSet | None = None
     schema: Schema | None = None
+    resolution_count = 0
     text_poor, inspected, candidate_pages = [], [], []
     with pymupdf.open(path) as doc:
         if doc.needs_pass:
@@ -438,12 +441,21 @@ def extract_pdf(path: str | Path, pages: list[int] | None = None, ocr: bool = Fa
                     legend.add(bits[0].upper())
             possible = any(identify_header(ln.strip()) for ln in text.splitlines())
             if 'HARDWARE TYPE' in text.upper() and 'MANUFACTURER' in text.upper():
-                table_sets = extract_table_page(pdf_page, page_number, digest)
-                if table_sets:
+                before = len(table_active.components) if table_active else 0
+                table_sets = extract_table_page(pdf_page, page_number, digest, table_active)
+                if table_sets or (table_active and len(table_active.components) > before):
                     sets.extend(table_sets)
                     candidate_pages.append(page_number)
+                    page = read_page(pdf_page, page_number, ocr)
+                    lookups = find_code_lookups(page)
+                    resolution_count += apply_code_lookups(
+                        [component for hardware_set in sets for component in hardware_set.components],
+                        lookups, page_number,
+                    )
+                    table_active = table_sets[-1] if table_sets else table_active
                     active = None
                     continue
+            table_active = None
             continuation = active is not None and active.locations and page_number == active.locations[-1].page + 1
             if continuation:
                 section_codes = re.findall(r'\b08\s?\d{2}\s?\d{2}\b', text[:650])
@@ -539,6 +551,11 @@ def extract_pdf(path: str | Path, pages: list[int] | None = None, ocr: bool = Fa
                 active = current
             if headers and page_schema:
                 schema = page_schema
+            lookups = find_code_lookups(page)
+            resolution_count += apply_code_lookups(
+                [component for hardware_set in sets for component in hardware_set.components],
+                lookups, page_number,
+            )
         page_count = len(doc)
     for hardware_set in sets:
         hardware_set.notes = list(dict.fromkeys(re.sub(r'^Notes?\s*:\s*', '', note, flags=re.I)
@@ -570,4 +587,5 @@ def extract_pdf(path: str | Path, pages: list[int] | None = None, ocr: bool = Fa
         'schedule_pages': candidate_pages, 'text_poor_pages': text_poor, 'set_count': len(sets),
         'component_count': sum(len(s.components) for s in sets), 'unused_set_count': sum(s.status == 'not_used' for s in sets),
         'multi_page_set_count': sum(len(s.locations) > 1 for s in sets), 'source_sha256': digest,
+        'catalog_resolution_count': resolution_count,
         'confidence_kind': 'heuristic; not calibrated probabilities'})
