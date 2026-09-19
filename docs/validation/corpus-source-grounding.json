@@ -1,0 +1,19 @@
+{
+  "scope": "All saved corpus results",
+  "metrics": {
+    "sets": 1304,
+    "components": 11622,
+    "valid_component_boxes": 11622,
+    "description_grounded": 11622,
+    "raw_text_grounded": 11620,
+    "catalog_grounded": 11284,
+    "mfr_grounded": 8567,
+    "finish_grounded": 8240,
+    "mfr_missing_or_null": 3055,
+    "finish_missing_or_null": 3382,
+    "catalog_number_missing_or_null": 338,
+    "raw_text_unchecked": 2
+  },
+  "failure_count": 0,
+  "failures": []
+}

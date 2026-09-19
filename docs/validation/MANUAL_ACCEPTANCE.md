@@ -14,6 +14,11 @@ the corpus was independently transcribed.
   component locations inside their parent set pages; unique IDs; valid
   confidence ranges; and empty components for `not_used` sets. Result:
   **0 issues** across 1,304 sets, 11,622 components and 13,116 locations.
+- An exhaustive [source-grounding audit](CORPUS_SOURCE_GROUNDING.md) then
+  checked all 11,622 component rows against their original PDF boxes. All
+  descriptions and all non-null catalog, manufacturer and finish values were
+  found in the corresponding source boxes. This verifies evidence linkage,
+  while the independently labeled holdout remains the semantic accuracy test.
 - The audit manifest supplied a stratified visual sample: first, middle and
   last candidate schedule pages (plus an adjacent midpoint page where
   available) from 25 schedule-bearing PDFs. This produced 99 rendered pages.
